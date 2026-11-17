@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "cuanza-sul",
+    "ordem_lei": 8,
+    "nome": "Cuanza-Sul",
+    "sede": "Sumbe",
+    "origem": null,
+    "lei_artigo": 162,
+    "total_municipios": 24,
+    "municipios": [
+      {
+        "id": "cuanza-sul-amboiva",
+        "nome": "Amboiva",
+        "lei_artigo": 193
+      },
+      {
+        "id": "cuanza-sul-boa-entrada",
+        "nome": "Boa Entrada",
+        "lei_artigo": 197
+      },
+      {
+        "id": "cuanza-sul-calulo",
+        "nome": "Calulo",
+        "lei_artigo": 165
+      },
+      {
+        "id": "cuanza-sul-cassongue",
+        "nome": "Cassongue",
+        "lei_artigo": 169
+      },
+      {
+        "id": "cuanza-sul-conda",
+        "nome": "Conda",
+        "lei_artigo": 183
+      },
+      {
+        "id": "cuanza-sul-conde",
+        "nome": "Condé",
+        "lei_artigo": 192
+      },
+      {
+        "id": "cuanza-sul-ebo",
+        "nome": "Ebo",
+        "lei_artigo": 181
+      },
+      {
+        "id": "cuanza-sul-gabela",
+        "nome": "Gabela",
+        "lei_artigo": 167
+      },
+      {
+        "id": "cuanza-sul-gangula",
+        "nome": "Gangula",
+        "lei_artigo": 190
+      },
+      {
+        "id": "cuanza-sul-gungo",
+        "nome": "Gungo",
+        "lei_artigo": 188
+      },
+      {
+        "id": "cuanza-sul-lonhe",
+        "nome": "Lonhe",
+        "lei_artigo": 194
+      },
+      {
+        "id": "cuanza-sul-munenga",
+        "nome": "Munenga",
+        "lei_artigo": 186
+      },
+      {
+        "id": "cuanza-sul-mussende",
+        "nome": "Mussende",
+        "lei_artigo": 178
+      },
+      {
+        "id": "cuanza-sul-pambangala",
+        "nome": "Pambangala",
+        "lei_artigo": 191
+      },
+      {
+        "id": "cuanza-sul-porto-amboim",
+        "nome": "Porto Amboím",
+        "lei_artigo": 171
+      },
+      {
+        "id": "cuanza-sul-quenha",
+        "nome": "Quenha",
+        "lei_artigo": 196
+      },
+      {
+        "id": "cuanza-sul-quibala",
+        "nome": "Quibala",
+        "lei_artigo": 173
+      },
+      {
+        "id": "cuanza-sul-quilenda",
+        "nome": "Quilenda",
+        "lei_artigo": 180
+      },
+      {
+        "id": "cuanza-sul-quirimbo",
+        "nome": "Quirimbo",
+        "lei_artigo": 185
+      },
+      {
+        "id": "cuanza-sul-quissongo",
+        "nome": "Quissongo",
+        "lei_artigo": 187
+      },
+      {
+        "id": "cuanza-sul-sanga",
+        "nome": "Sanga",
+        "lei_artigo": 189
+      },
+      {
+        "id": "cuanza-sul-seles",
+        "nome": "Seles",
+        "lei_artigo": 175
+      },
+      {
+        "id": "cuanza-sul-sumbe",
+        "nome": "Sumbe",
+        "lei_artigo": 163
+      },
+      {
+        "id": "cuanza-sul-waku-kungo",
+        "nome": "Waku Kungo",
+        "lei_artigo": 177
+      }
+    ]
+  }
+}

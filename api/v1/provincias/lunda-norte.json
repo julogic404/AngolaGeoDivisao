@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "lunda-norte",
+    "ordem_lei": 10,
+    "nome": "Lunda-Norte",
+    "sede": "Dundo",
+    "origem": null,
+    "lei_artigo": 244,
+    "total_municipios": 19,
+    "municipios": [
+      {
+        "id": "lunda-norte-cafunfo",
+        "nome": "Cafunfo",
+        "lei_artigo": 273
+      },
+      {
+        "id": "lunda-norte-camaxilo",
+        "nome": "Camaxilo",
+        "lei_artigo": 264
+      },
+      {
+        "id": "lunda-norte-cambulo",
+        "nome": "Cambulo",
+        "lei_artigo": 256
+      },
+      {
+        "id": "lunda-norte-canzar",
+        "nome": "Canzar",
+        "lei_artigo": 267
+      },
+      {
+        "id": "lunda-norte-capenda-camulemba",
+        "nome": "Capenda Camulemba",
+        "lei_artigo": 251
+      },
+      {
+        "id": "lunda-norte-cassanje-calucala",
+        "nome": "Cassanje Calucala",
+        "lei_artigo": 269
+      },
+      {
+        "id": "lunda-norte-caungula",
+        "nome": "Caungula",
+        "lei_artigo": 259
+      },
+      {
+        "id": "lunda-norte-chitato",
+        "nome": "Chitato",
+        "lei_artigo": 261
+      },
+      {
+        "id": "lunda-norte-cuango",
+        "nome": "Cuango",
+        "lei_artigo": 253
+      },
+      {
+        "id": "lunda-norte-cuilo",
+        "nome": "Cuilo",
+        "lei_artigo": 245
+      },
+      {
+        "id": "lunda-norte-dundo",
+        "nome": "Dundo",
+        "lei_artigo": 247
+      },
+      {
+        "id": "lunda-norte-lovua",
+        "nome": "Lóvua",
+        "lei_artigo": 260
+      },
+      {
+        "id": "lunda-norte-luangue",
+        "nome": "Luangue",
+        "lei_artigo": 265
+      },
+      {
+        "id": "lunda-norte-lubalo",
+        "nome": "Lubalo",
+        "lei_artigo": 249
+      },
+      {
+        "id": "lunda-norte-lucapa",
+        "nome": "Lucapa",
+        "lei_artigo": 254
+      },
+      {
+        "id": "lunda-norte-luremo",
+        "nome": "Luremo",
+        "lei_artigo": 266
+      },
+      {
+        "id": "lunda-norte-mussungue",
+        "nome": "Mussungue",
+        "lei_artigo": 271
+      },
+      {
+        "id": "lunda-norte-xa-cassau",
+        "nome": "Xá Cassau",
+        "lei_artigo": 262
+      },
+      {
+        "id": "lunda-norte-xa-muteba",
+        "nome": "Xá Muteba",
+        "lei_artigo": 258
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "benguela",
+    "ordem_lei": 16,
+    "nome": "Benguela",
+    "sede": "Benguela",
+    "origem": null,
+    "lei_artigo": 384,
+    "total_municipios": 23,
+    "municipios": [
+      {
+        "id": "benguela-babaera",
+        "nome": "Babaera",
+        "lei_artigo": 407
+      },
+      {
+        "id": "benguela-baia-farta",
+        "nome": "Baía Farta",
+        "lei_artigo": 394
+      },
+      {
+        "id": "benguela-balombo",
+        "nome": "Balombo",
+        "lei_artigo": 391
+      },
+      {
+        "id": "benguela-benguela",
+        "nome": "Benguela",
+        "lei_artigo": 385
+      },
+      {
+        "id": "benguela-biopio",
+        "nome": "Biópio",
+        "lei_artigo": 404
+      },
+      {
+        "id": "benguela-bocoio",
+        "nome": "Bocoio",
+        "lei_artigo": 389
+      },
+      {
+        "id": "benguela-bolonguera",
+        "nome": "Bolonguera",
+        "lei_artigo": 410
+      },
+      {
+        "id": "benguela-caimbambo",
+        "nome": "Caimbambo",
+        "lei_artigo": 395
+      },
+      {
+        "id": "benguela-canhamela",
+        "nome": "Canhamela",
+        "lei_artigo": 411
+      },
+      {
+        "id": "benguela-capupa",
+        "nome": "Capupa",
+        "lei_artigo": 403
+      },
+      {
+        "id": "benguela-catengue",
+        "nome": "Catengue",
+        "lei_artigo": 409
+      },
+      {
+        "id": "benguela-catumbela",
+        "nome": "Catumbela",
+        "lei_artigo": 388
+      },
+      {
+        "id": "benguela-chicuma",
+        "nome": "Chicuma",
+        "lei_artigo": 406
+      },
+      {
+        "id": "benguela-chila",
+        "nome": "Chila",
+        "lei_artigo": 405
+      },
+      {
+        "id": "benguela-chindumbo",
+        "nome": "Chindumbo",
+        "lei_artigo": 401
+      },
+      {
+        "id": "benguela-chongoroi",
+        "nome": "Chongorói",
+        "lei_artigo": 397
+      },
+      {
+        "id": "benguela-cubal",
+        "nome": "Cubal",
+        "lei_artigo": 393
+      },
+      {
+        "id": "benguela-dombe-grande",
+        "nome": "Dombe Grande",
+        "lei_artigo": 402
+      },
+      {
+        "id": "benguela-egito-praia",
+        "nome": "Egito Praia",
+        "lei_artigo": 399
+      },
+      {
+        "id": "benguela-ganda",
+        "nome": "Ganda",
+        "lei_artigo": 386
+      },
+      {
+        "id": "benguela-iambala",
+        "nome": "Iambala",
+        "lei_artigo": 408
+      },
+      {
+        "id": "benguela-lobito",
+        "nome": "Lobito",
+        "lei_artigo": 387
+      },
+      {
+        "id": "benguela-navegantes",
+        "nome": "Navegantes",
+        "lei_artigo": 412
+      }
+    ]
+  }
+}

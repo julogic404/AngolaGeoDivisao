@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "malanje",
+    "ordem_lei": 9,
+    "nome": "Malanje",
+    "sede": "Malanje",
+    "origem": null,
+    "lei_artigo": 198,
+    "total_municipios": 27,
+    "municipios": [
+      {
+        "id": "malanje-caculama",
+        "nome": "Caculama",
+        "lei_artigo": 220
+      },
+      {
+        "id": "malanje-cacuso",
+        "nome": "Cacuso",
+        "lei_artigo": 203
+      },
+      {
+        "id": "malanje-cahombo",
+        "nome": "Cahombo",
+        "lei_artigo": 214
+      },
+      {
+        "id": "malanje-calandula",
+        "nome": "Calandula",
+        "lei_artigo": 199
+      },
+      {
+        "id": "malanje-cambo-suinginge",
+        "nome": "Cambo Suinginge",
+        "lei_artigo": 237
+      },
+      {
+        "id": "malanje-cambundi-catembo",
+        "nome": "Cambundi Catembo",
+        "lei_artigo": 218
+      },
+      {
+        "id": "malanje-cangandala",
+        "nome": "Cangandala",
+        "lei_artigo": 212
+      },
+      {
+        "id": "malanje-capunda",
+        "nome": "Capunda",
+        "lei_artigo": 240
+      },
+      {
+        "id": "malanje-cateco-cangola",
+        "nome": "Cateco Cangola",
+        "lei_artigo": 226
+      },
+      {
+        "id": "malanje-cuale",
+        "nome": "Cuale",
+        "lei_artigo": 229
+      },
+      {
+        "id": "malanje-kiwaba-nzoji",
+        "nome": "Kiwaba Nzoji",
+        "lei_artigo": 222
+      },
+      {
+        "id": "malanje-kunda-dya-baze",
+        "nome": "Kunda dya Baze",
+        "lei_artigo": 216
+      },
+      {
+        "id": "malanje-luquembo",
+        "nome": "Luquembo",
+        "lei_artigo": 224
+      },
+      {
+        "id": "malanje-malanje",
+        "nome": "Malanje",
+        "lei_artigo": 201
+      },
+      {
+        "id": "malanje-marimba",
+        "nome": "Marimba",
+        "lei_artigo": 206
+      },
+      {
+        "id": "malanje-massango",
+        "nome": "Massango",
+        "lei_artigo": 205
+      },
+      {
+        "id": "malanje-mbanji-ya-ngola",
+        "nome": "Mbanji ya Ngola",
+        "lei_artigo": 227
+      },
+      {
+        "id": "malanje-milando",
+        "nome": "Milando",
+        "lei_artigo": 238
+      },
+      {
+        "id": "malanje-muquixe",
+        "nome": "Muquixe",
+        "lei_artigo": 242
+      },
+      {
+        "id": "malanje-ngola-luiji",
+        "nome": "Ngola Luiji",
+        "lei_artigo": 231
+      },
+      {
+        "id": "malanje-pungu-a-ndongo",
+        "nome": "Pungu a Ndongo",
+        "lei_artigo": 230
+      },
+      {
+        "id": "malanje-quela",
+        "nome": "Quela",
+        "lei_artigo": 208
+      },
+      {
+        "id": "malanje-quessua",
+        "nome": "Quêssua",
+        "lei_artigo": 243
+      },
+      {
+        "id": "malanje-quihuhu",
+        "nome": "Quihuhu",
+        "lei_artigo": 233
+      },
+      {
+        "id": "malanje-quirima",
+        "nome": "Quirima",
+        "lei_artigo": 210
+      },
+      {
+        "id": "malanje-quitapa",
+        "nome": "Quitapa",
+        "lei_artigo": 239
+      },
+      {
+        "id": "malanje-xandel",
+        "nome": "Xandel",
+        "lei_artigo": 235
+      }
+    ]
+  }
+}

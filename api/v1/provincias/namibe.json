@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "namibe",
+    "ordem_lei": 17,
+    "nome": "Namibe",
+    "sede": "Moçâmedes",
+    "origem": null,
+    "lei_artigo": 413,
+    "total_municipios": 9,
+    "municipios": [
+      {
+        "id": "namibe-bibala",
+        "nome": "Bibala",
+        "lei_artigo": 416
+      },
+      {
+        "id": "namibe-cacimbas",
+        "nome": "Cacimbas",
+        "lei_artigo": 426
+      },
+      {
+        "id": "namibe-camucuio",
+        "nome": "Camucuio",
+        "lei_artigo": 420
+      },
+      {
+        "id": "namibe-iona",
+        "nome": "Iona",
+        "lei_artigo": 424
+      },
+      {
+        "id": "namibe-lucira",
+        "nome": "Lucira",
+        "lei_artigo": 422
+      },
+      {
+        "id": "namibe-mocamedes",
+        "nome": "Moçâmedes",
+        "lei_artigo": 414
+      },
+      {
+        "id": "namibe-sacomar",
+        "nome": "Sacomar",
+        "lei_artigo": 425
+      },
+      {
+        "id": "namibe-tombwa",
+        "nome": "Tômbwa",
+        "lei_artigo": 415
+      },
+      {
+        "id": "namibe-virei",
+        "nome": "Virei",
+        "lei_artigo": 418
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "huila",
+    "ordem_lei": 18,
+    "nome": "Huíla",
+    "sede": "Lubango",
+    "origem": null,
+    "lei_artigo": 427,
+    "total_municipios": 23,
+    "municipios": [
+      {
+        "id": "huila-caconda",
+        "nome": "Caconda",
+        "lei_artigo": 428
+      },
+      {
+        "id": "huila-cacula",
+        "nome": "Cacula",
+        "lei_artigo": 450
+      },
+      {
+        "id": "huila-caluquembe",
+        "nome": "Caluquembe",
+        "lei_artigo": 441
+      },
+      {
+        "id": "huila-capelongo",
+        "nome": "Capelongo",
+        "lei_artigo": 454
+      },
+      {
+        "id": "huila-capunda-cavilongo",
+        "nome": "Capunda Cavilongo",
+        "lei_artigo": 457
+      },
+      {
+        "id": "huila-chibia",
+        "nome": "Chibia",
+        "lei_artigo": 437
+      },
+      {
+        "id": "huila-chicomba",
+        "nome": "Chicomba",
+        "lei_artigo": 448
+      },
+      {
+        "id": "huila-chicungo",
+        "nome": "Chicungo",
+        "lei_artigo": 462
+      },
+      {
+        "id": "huila-chipindo",
+        "nome": "Chipindo",
+        "lei_artigo": 446
+      },
+      {
+        "id": "huila-chituto",
+        "nome": "Chituto",
+        "lei_artigo": 456
+      },
+      {
+        "id": "huila-cuvango",
+        "nome": "Cuvango",
+        "lei_artigo": 435
+      },
+      {
+        "id": "huila-dongo",
+        "nome": "Dongo",
+        "lei_artigo": 452
+      },
+      {
+        "id": "huila-galangue",
+        "nome": "Galangue",
+        "lei_artigo": 460
+      },
+      {
+        "id": "huila-gambos",
+        "nome": "Gambos",
+        "lei_artigo": 430
+      },
+      {
+        "id": "huila-hoque",
+        "nome": "Hoque",
+        "lei_artigo": 453
+      },
+      {
+        "id": "huila-humpata",
+        "nome": "Humpata",
+        "lei_artigo": 432
+      },
+      {
+        "id": "huila-jamba-mineira",
+        "nome": "Jamba Mineira",
+        "lei_artigo": 444
+      },
+      {
+        "id": "huila-lubango",
+        "nome": "Lubango",
+        "lei_artigo": 433
+      },
+      {
+        "id": "huila-matala",
+        "nome": "Matala",
+        "lei_artigo": 443
+      },
+      {
+        "id": "huila-palanca",
+        "nome": "Palanca",
+        "lei_artigo": 461
+      },
+      {
+        "id": "huila-quilengues",
+        "nome": "Quilengues",
+        "lei_artigo": 439
+      },
+      {
+        "id": "huila-quipungo",
+        "nome": "Quipungo",
+        "lei_artigo": 436
+      },
+      {
+        "id": "huila-viti-vivali",
+        "nome": "Viti Vivali",
+        "lei_artigo": 459
+      }
+    ]
+  }
+}

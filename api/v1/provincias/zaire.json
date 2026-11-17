@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "zaire",
+    "ordem_lei": 2,
+    "nome": "Zaire",
+    "sede": "Mbanza Kongo",
+    "origem": null,
+    "lei_artigo": 20,
+    "total_municipios": 11,
+    "municipios": [
+      {
+        "id": "zaire-cuimba",
+        "nome": "Cuimba",
+        "lei_artigo": 29
+      },
+      {
+        "id": "zaire-lufico",
+        "nome": "Lufico",
+        "lei_artigo": 33
+      },
+      {
+        "id": "zaire-luvo",
+        "nome": "Luvo",
+        "lei_artigo": 32
+      },
+      {
+        "id": "zaire-mbanza-kongo",
+        "nome": "Mbanza Kongo",
+        "lei_artigo": 23
+      },
+      {
+        "id": "zaire-noqui",
+        "nome": "Nóqui",
+        "lei_artigo": 31
+      },
+      {
+        "id": "zaire-nzeto",
+        "nome": "Nzeto",
+        "lei_artigo": 25
+      },
+      {
+        "id": "zaire-quelo",
+        "nome": "Quêlo",
+        "lei_artigo": 35
+      },
+      {
+        "id": "zaire-quindeje",
+        "nome": "Quindeje",
+        "lei_artigo": 37
+      },
+      {
+        "id": "zaire-serra-de-canda",
+        "nome": "Serra de Canda",
+        "lei_artigo": 36
+      },
+      {
+        "id": "zaire-soyo",
+        "nome": "Soyo",
+        "lei_artigo": 21
+      },
+      {
+        "id": "zaire-tomboco",
+        "nome": "Tomboco",
+        "lei_artigo": 27
+      }
+    ]
+  }
+}

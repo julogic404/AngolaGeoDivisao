@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "luanda",
+    "ordem_lei": 5,
+    "nome": "Luanda",
+    "sede": "Ingombota",
+    "origem": null,
+    "lei_artigo": 100,
+    "total_municipios": 16,
+    "municipios": [
+      {
+        "id": "luanda-belas",
+        "nome": "Belas",
+        "lei_artigo": 107
+      },
+      {
+        "id": "luanda-cacuaco",
+        "nome": "Cacuaco",
+        "lei_artigo": 102
+      },
+      {
+        "id": "luanda-camama",
+        "nome": "Camama",
+        "lei_artigo": 118
+      },
+      {
+        "id": "luanda-cazenga",
+        "nome": "Cazenga",
+        "lei_artigo": 104
+      },
+      {
+        "id": "luanda-hoji-ya-henda",
+        "nome": "Hoji ya Henda",
+        "lei_artigo": 122
+      },
+      {
+        "id": "luanda-ingombota",
+        "nome": "Ingombota",
+        "lei_artigo": 101
+      },
+      {
+        "id": "luanda-kilamba",
+        "nome": "Kilamba",
+        "lei_artigo": 120
+      },
+      {
+        "id": "luanda-kilamba-kiaxi",
+        "nome": "Kilamba Kiaxi",
+        "lei_artigo": 109
+      },
+      {
+        "id": "luanda-maianga",
+        "nome": "Maianga",
+        "lei_artigo": 116
+      },
+      {
+        "id": "luanda-mulenvos",
+        "nome": "Mulenvos",
+        "lei_artigo": 119
+      },
+      {
+        "id": "luanda-mussulo",
+        "nome": "Mussulo",
+        "lei_artigo": 113
+      },
+      {
+        "id": "luanda-rangel",
+        "nome": "Rangel",
+        "lei_artigo": 115
+      },
+      {
+        "id": "luanda-samba",
+        "nome": "Samba",
+        "lei_artigo": 117
+      },
+      {
+        "id": "luanda-sambizanga",
+        "nome": "Sambizanga",
+        "lei_artigo": 114
+      },
+      {
+        "id": "luanda-talatona",
+        "nome": "Talatona",
+        "lei_artigo": 111
+      },
+      {
+        "id": "luanda-viana",
+        "nome": "Viana",
+        "lei_artigo": 106
+      }
+    ]
+  }
+}

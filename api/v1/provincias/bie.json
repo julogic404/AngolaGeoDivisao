@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "bie",
+    "ordem_lei": 14,
+    "nome": "Bié",
+    "sede": "Cuito",
+    "origem": null,
+    "lei_artigo": 321,
+    "total_municipios": 19,
+    "municipios": [
+      {
+        "id": "bie-andulo",
+        "nome": "Andulo",
+        "lei_artigo": 322
+      },
+      {
+        "id": "bie-belo-horizonte",
+        "nome": "Belo Horizonte",
+        "lei_artigo": 351
+      },
+      {
+        "id": "bie-calucinga",
+        "nome": "Calucinga",
+        "lei_artigo": 343
+      },
+      {
+        "id": "bie-camacupa",
+        "nome": "Camacupa",
+        "lei_artigo": 328
+      },
+      {
+        "id": "bie-cambandua",
+        "nome": "Cambândua",
+        "lei_artigo": 350
+      },
+      {
+        "id": "bie-catabola",
+        "nome": "Catabola",
+        "lei_artigo": 332
+      },
+      {
+        "id": "bie-chicala",
+        "nome": "Chicala",
+        "lei_artigo": 344
+      },
+      {
+        "id": "bie-chinguar",
+        "nome": "Chinguar",
+        "lei_artigo": 330
+      },
+      {
+        "id": "bie-chipeta",
+        "nome": "Chipeta",
+        "lei_artigo": 345
+      },
+      {
+        "id": "bie-chitembo",
+        "nome": "Chitembo",
+        "lei_artigo": 324
+      },
+      {
+        "id": "bie-cuemba",
+        "nome": "Cuemba",
+        "lei_artigo": 335
+      },
+      {
+        "id": "bie-cuito",
+        "nome": "Cuito",
+        "lei_artigo": 326
+      },
+      {
+        "id": "bie-cunhinga",
+        "nome": "Cunhinga",
+        "lei_artigo": 334
+      },
+      {
+        "id": "bie-luando",
+        "nome": "Luando",
+        "lei_artigo": 339
+      },
+      {
+        "id": "bie-lubia",
+        "nome": "Lúbia",
+        "lei_artigo": 348
+      },
+      {
+        "id": "bie-mumbue",
+        "nome": "Mumbué",
+        "lei_artigo": 341
+      },
+      {
+        "id": "bie-nharea",
+        "nome": "Nharêa",
+        "lei_artigo": 337
+      },
+      {
+        "id": "bie-ringoma",
+        "nome": "Ringoma",
+        "lei_artigo": 340
+      },
+      {
+        "id": "bie-umpulo",
+        "nome": "Umpulo",
+        "lei_artigo": 347
+      }
+    ]
+  }
+}

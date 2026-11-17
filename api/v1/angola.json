@@ -1,0 +1,1881 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "provincias": [
+    {
+      "id": "bengo",
+      "ordem_lei": 4,
+      "nome": "Bengo",
+      "sede": "Dande",
+      "origem": null,
+      "lei_artigo": 80,
+      "total_municipios": 12,
+      "municipios": [
+        {
+          "id": "bengo-ambriz",
+          "nome": "Ambriz",
+          "comunas": null
+        },
+        {
+          "id": "bengo-barra-do-dande",
+          "nome": "Barra do Dande",
+          "comunas": null
+        },
+        {
+          "id": "bengo-bula-atumba",
+          "nome": "Bula Atumba",
+          "comunas": null
+        },
+        {
+          "id": "bengo-dande",
+          "nome": "Dande",
+          "comunas": null
+        },
+        {
+          "id": "bengo-muxaluando",
+          "nome": "Muxaluando",
+          "comunas": null
+        },
+        {
+          "id": "bengo-nambuangongo",
+          "nome": "Nambuangongo",
+          "comunas": null
+        },
+        {
+          "id": "bengo-pango-aluquem",
+          "nome": "Pango Aluquém",
+          "comunas": null
+        },
+        {
+          "id": "bengo-panguila",
+          "nome": "Panguila",
+          "comunas": null
+        },
+        {
+          "id": "bengo-piri",
+          "nome": "Piri",
+          "comunas": null
+        },
+        {
+          "id": "bengo-quibaxe",
+          "nome": "Quibaxe",
+          "comunas": null
+        },
+        {
+          "id": "bengo-quicunzo",
+          "nome": "Quicunzo",
+          "comunas": null
+        },
+        {
+          "id": "bengo-ucua",
+          "nome": "Úcua",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "benguela",
+      "ordem_lei": 16,
+      "nome": "Benguela",
+      "sede": "Benguela",
+      "origem": null,
+      "lei_artigo": 384,
+      "total_municipios": 23,
+      "municipios": [
+        {
+          "id": "benguela-babaera",
+          "nome": "Babaera",
+          "comunas": null
+        },
+        {
+          "id": "benguela-baia-farta",
+          "nome": "Baía Farta",
+          "comunas": null
+        },
+        {
+          "id": "benguela-balombo",
+          "nome": "Balombo",
+          "comunas": null
+        },
+        {
+          "id": "benguela-benguela",
+          "nome": "Benguela",
+          "comunas": null
+        },
+        {
+          "id": "benguela-biopio",
+          "nome": "Biópio",
+          "comunas": null
+        },
+        {
+          "id": "benguela-bocoio",
+          "nome": "Bocoio",
+          "comunas": null
+        },
+        {
+          "id": "benguela-bolonguera",
+          "nome": "Bolonguera",
+          "comunas": null
+        },
+        {
+          "id": "benguela-caimbambo",
+          "nome": "Caimbambo",
+          "comunas": null
+        },
+        {
+          "id": "benguela-canhamela",
+          "nome": "Canhamela",
+          "comunas": null
+        },
+        {
+          "id": "benguela-capupa",
+          "nome": "Capupa",
+          "comunas": null
+        },
+        {
+          "id": "benguela-catengue",
+          "nome": "Catengue",
+          "comunas": null
+        },
+        {
+          "id": "benguela-catumbela",
+          "nome": "Catumbela",
+          "comunas": null
+        },
+        {
+          "id": "benguela-chicuma",
+          "nome": "Chicuma",
+          "comunas": null
+        },
+        {
+          "id": "benguela-chila",
+          "nome": "Chila",
+          "comunas": null
+        },
+        {
+          "id": "benguela-chindumbo",
+          "nome": "Chindumbo",
+          "comunas": null
+        },
+        {
+          "id": "benguela-chongoroi",
+          "nome": "Chongorói",
+          "comunas": null
+        },
+        {
+          "id": "benguela-cubal",
+          "nome": "Cubal",
+          "comunas": null
+        },
+        {
+          "id": "benguela-dombe-grande",
+          "nome": "Dombe Grande",
+          "comunas": null
+        },
+        {
+          "id": "benguela-egito-praia",
+          "nome": "Egito Praia",
+          "comunas": null
+        },
+        {
+          "id": "benguela-ganda",
+          "nome": "Ganda",
+          "comunas": null
+        },
+        {
+          "id": "benguela-iambala",
+          "nome": "Iambala",
+          "comunas": null
+        },
+        {
+          "id": "benguela-lobito",
+          "nome": "Lobito",
+          "comunas": null
+        },
+        {
+          "id": "benguela-navegantes",
+          "nome": "Navegantes",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "bie",
+      "ordem_lei": 14,
+      "nome": "Bié",
+      "sede": "Cuito",
+      "origem": null,
+      "lei_artigo": 321,
+      "total_municipios": 19,
+      "municipios": [
+        {
+          "id": "bie-andulo",
+          "nome": "Andulo",
+          "comunas": null
+        },
+        {
+          "id": "bie-belo-horizonte",
+          "nome": "Belo Horizonte",
+          "comunas": null
+        },
+        {
+          "id": "bie-calucinga",
+          "nome": "Calucinga",
+          "comunas": null
+        },
+        {
+          "id": "bie-camacupa",
+          "nome": "Camacupa",
+          "comunas": null
+        },
+        {
+          "id": "bie-cambandua",
+          "nome": "Cambândua",
+          "comunas": null
+        },
+        {
+          "id": "bie-catabola",
+          "nome": "Catabola",
+          "comunas": null
+        },
+        {
+          "id": "bie-chicala",
+          "nome": "Chicala",
+          "comunas": null
+        },
+        {
+          "id": "bie-chinguar",
+          "nome": "Chinguar",
+          "comunas": null
+        },
+        {
+          "id": "bie-chipeta",
+          "nome": "Chipeta",
+          "comunas": null
+        },
+        {
+          "id": "bie-chitembo",
+          "nome": "Chitembo",
+          "comunas": null
+        },
+        {
+          "id": "bie-cuemba",
+          "nome": "Cuemba",
+          "comunas": null
+        },
+        {
+          "id": "bie-cuito",
+          "nome": "Cuito",
+          "comunas": null
+        },
+        {
+          "id": "bie-cunhinga",
+          "nome": "Cunhinga",
+          "comunas": null
+        },
+        {
+          "id": "bie-luando",
+          "nome": "Luando",
+          "comunas": null
+        },
+        {
+          "id": "bie-lubia",
+          "nome": "Lúbia",
+          "comunas": null
+        },
+        {
+          "id": "bie-mumbue",
+          "nome": "Mumbué",
+          "comunas": null
+        },
+        {
+          "id": "bie-nharea",
+          "nome": "Nharêa",
+          "comunas": null
+        },
+        {
+          "id": "bie-ringoma",
+          "nome": "Ringoma",
+          "comunas": null
+        },
+        {
+          "id": "bie-umpulo",
+          "nome": "Umpulo",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "cabinda",
+      "ordem_lei": 1,
+      "nome": "Cabinda",
+      "sede": "Cabinda",
+      "origem": null,
+      "lei_artigo": 5,
+      "total_municipios": 10,
+      "municipios": [
+        {
+          "id": "cabinda-belize",
+          "nome": "Belize",
+          "comunas": null
+        },
+        {
+          "id": "cabinda-buco-zau",
+          "nome": "Buco Zau",
+          "comunas": null
+        },
+        {
+          "id": "cabinda-cabinda",
+          "nome": "Cabinda",
+          "comunas": null
+        },
+        {
+          "id": "cabinda-cacongo",
+          "nome": "Cacongo",
+          "comunas": null
+        },
+        {
+          "id": "cabinda-liambo",
+          "nome": "Liambo",
+          "comunas": null
+        },
+        {
+          "id": "cabinda-massabi",
+          "nome": "Massabi",
+          "comunas": null
+        },
+        {
+          "id": "cabinda-miconje",
+          "nome": "Miconje",
+          "comunas": null
+        },
+        {
+          "id": "cabinda-necuto",
+          "nome": "Necuto",
+          "comunas": null
+        },
+        {
+          "id": "cabinda-ngoio",
+          "nome": "Ngoio",
+          "comunas": null
+        },
+        {
+          "id": "cabinda-tando-zinze",
+          "nome": "Tando Zinze",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "cuando",
+      "ordem_lei": 21,
+      "nome": "Cuando",
+      "sede": "Mavinga",
+      "origem": "Cuando Cubango",
+      "lei_artigo": 501,
+      "total_municipios": 9,
+      "municipios": [
+        {
+          "id": "cuando-cuito-cuanavale",
+          "nome": "Cuito Cuanavale",
+          "comunas": null
+        },
+        {
+          "id": "cuando-dima",
+          "nome": "Dima",
+          "comunas": null
+        },
+        {
+          "id": "cuando-dirico",
+          "nome": "Dirico",
+          "comunas": null
+        },
+        {
+          "id": "cuando-luengue",
+          "nome": "Luengue",
+          "comunas": null
+        },
+        {
+          "id": "cuando-luiana",
+          "nome": "Luiana",
+          "comunas": null
+        },
+        {
+          "id": "cuando-mavinga",
+          "nome": "Mavinga",
+          "comunas": null
+        },
+        {
+          "id": "cuando-mucusso",
+          "nome": "Mucusso",
+          "comunas": null
+        },
+        {
+          "id": "cuando-rivungo",
+          "nome": "Rivungo",
+          "comunas": null
+        },
+        {
+          "id": "cuando-xipundo",
+          "nome": "Xipundo",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "cuanza-norte",
+      "ordem_lei": 7,
+      "nome": "Cuanza-Norte",
+      "sede": "Cazengo",
+      "origem": null,
+      "lei_artigo": 134,
+      "total_municipios": 17,
+      "municipios": [
+        {
+          "id": "cuanza-norte-aldeia-nova",
+          "nome": "Aldeia Nova",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-ambaca",
+          "nome": "Ambaca",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-banga",
+          "nome": "Banga",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-bolongongo",
+          "nome": "Bolongongo",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-caculo-cabaca",
+          "nome": "Caculo Cabaça",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-cambambe",
+          "nome": "Cambambe",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-cazengo",
+          "nome": "Cazengo",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-cerca",
+          "nome": "Cêrca",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-golungo-alto",
+          "nome": "Golungo Alto",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-lucala",
+          "nome": "Lucala",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-luinga",
+          "nome": "Luinga",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-massangano",
+          "nome": "Massangano",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-ngonguembo",
+          "nome": "Ngonguembo",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-quiculungo",
+          "nome": "Quiculungo",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-samba-caju",
+          "nome": "Samba Cajú",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-tango",
+          "nome": "Tango",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-norte-terreiro",
+          "nome": "Terreiro",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "cuanza-sul",
+      "ordem_lei": 8,
+      "nome": "Cuanza-Sul",
+      "sede": "Sumbe",
+      "origem": null,
+      "lei_artigo": 162,
+      "total_municipios": 24,
+      "municipios": [
+        {
+          "id": "cuanza-sul-amboiva",
+          "nome": "Amboiva",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-boa-entrada",
+          "nome": "Boa Entrada",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-calulo",
+          "nome": "Calulo",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-cassongue",
+          "nome": "Cassongue",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-conda",
+          "nome": "Conda",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-conde",
+          "nome": "Condé",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-ebo",
+          "nome": "Ebo",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-gabela",
+          "nome": "Gabela",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-gangula",
+          "nome": "Gangula",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-gungo",
+          "nome": "Gungo",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-lonhe",
+          "nome": "Lonhe",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-munenga",
+          "nome": "Munenga",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-mussende",
+          "nome": "Mussende",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-pambangala",
+          "nome": "Pambangala",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-porto-amboim",
+          "nome": "Porto Amboím",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-quenha",
+          "nome": "Quenha",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-quibala",
+          "nome": "Quibala",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-quilenda",
+          "nome": "Quilenda",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-quirimbo",
+          "nome": "Quirimbo",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-quissongo",
+          "nome": "Quissongo",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-sanga",
+          "nome": "Sanga",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-seles",
+          "nome": "Seles",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-sumbe",
+          "nome": "Sumbe",
+          "comunas": null
+        },
+        {
+          "id": "cuanza-sul-waku-kungo",
+          "nome": "Waku Kungo",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "cubango",
+      "ordem_lei": 20,
+      "nome": "Cubango",
+      "sede": "Menongue",
+      "origem": "Cuando Cubango",
+      "lei_artigo": 483,
+      "total_municipios": 11,
+      "municipios": [
+        {
+          "id": "cubango-caiundo",
+          "nome": "Caiundo",
+          "comunas": null
+        },
+        {
+          "id": "cubango-calai",
+          "nome": "Calai",
+          "comunas": null
+        },
+        {
+          "id": "cubango-chinguanja",
+          "nome": "Chinguanja",
+          "comunas": null
+        },
+        {
+          "id": "cubango-cuangar",
+          "nome": "Cuangar",
+          "comunas": null
+        },
+        {
+          "id": "cubango-cuchi",
+          "nome": "Cuchi",
+          "comunas": null
+        },
+        {
+          "id": "cubango-cutato",
+          "nome": "Cutato",
+          "comunas": null
+        },
+        {
+          "id": "cubango-longa",
+          "nome": "Longa",
+          "comunas": null
+        },
+        {
+          "id": "cubango-mavengue",
+          "nome": "Mavengue",
+          "comunas": null
+        },
+        {
+          "id": "cubango-menongue",
+          "nome": "Menongue",
+          "comunas": null
+        },
+        {
+          "id": "cubango-nancova",
+          "nome": "Nancova",
+          "comunas": null
+        },
+        {
+          "id": "cubango-savate",
+          "nome": "Savate",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "cunene",
+      "ordem_lei": 19,
+      "nome": "Cunene",
+      "sede": "Cuanhama",
+      "origem": null,
+      "lei_artigo": 463,
+      "total_municipios": 14,
+      "municipios": [
+        {
+          "id": "cunene-cafima",
+          "nome": "Cafima",
+          "comunas": null
+        },
+        {
+          "id": "cunene-cahama",
+          "nome": "Cahama",
+          "comunas": null
+        },
+        {
+          "id": "cunene-chiede",
+          "nome": "Chiéde",
+          "comunas": null
+        },
+        {
+          "id": "cunene-chissuata",
+          "nome": "Chissuata",
+          "comunas": null
+        },
+        {
+          "id": "cunene-chitado",
+          "nome": "Chitado",
+          "comunas": null
+        },
+        {
+          "id": "cunene-cuanhama",
+          "nome": "Cuanhama",
+          "comunas": null
+        },
+        {
+          "id": "cunene-curoca",
+          "nome": "Curoca",
+          "comunas": null
+        },
+        {
+          "id": "cunene-cuvelai",
+          "nome": "Cuvelai",
+          "comunas": null
+        },
+        {
+          "id": "cunene-humbe",
+          "nome": "Humbe",
+          "comunas": null
+        },
+        {
+          "id": "cunene-mupa",
+          "nome": "Mupa",
+          "comunas": null
+        },
+        {
+          "id": "cunene-namacunde",
+          "nome": "Namacunde",
+          "comunas": null
+        },
+        {
+          "id": "cunene-naulila",
+          "nome": "Naulila",
+          "comunas": null
+        },
+        {
+          "id": "cunene-nehone",
+          "nome": "Nehone",
+          "comunas": null
+        },
+        {
+          "id": "cunene-ombadja",
+          "nome": "Ombadja",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "huambo",
+      "ordem_lei": 15,
+      "nome": "Huambo",
+      "sede": "Huambo",
+      "origem": null,
+      "lei_artigo": 352,
+      "total_municipios": 17,
+      "municipios": [
+        {
+          "id": "huambo-alto-hama",
+          "nome": "Alto Hama",
+          "comunas": null
+        },
+        {
+          "id": "huambo-bailundo",
+          "nome": "Bailundo",
+          "comunas": null
+        },
+        {
+          "id": "huambo-bimbe",
+          "nome": "Bimbe",
+          "comunas": null
+        },
+        {
+          "id": "huambo-caala",
+          "nome": "Caála",
+          "comunas": null
+        },
+        {
+          "id": "huambo-cachiungo",
+          "nome": "Cachiungo",
+          "comunas": null
+        },
+        {
+          "id": "huambo-chicala-choloanga",
+          "nome": "Chicala Choloanga",
+          "comunas": null
+        },
+        {
+          "id": "huambo-chilata",
+          "nome": "Chilata",
+          "comunas": null
+        },
+        {
+          "id": "huambo-chinjenje",
+          "nome": "Chinjenje",
+          "comunas": null
+        },
+        {
+          "id": "huambo-cuima",
+          "nome": "Cuima",
+          "comunas": null
+        },
+        {
+          "id": "huambo-ecunha",
+          "nome": "Ecunha",
+          "comunas": null
+        },
+        {
+          "id": "huambo-galanga",
+          "nome": "Galanga",
+          "comunas": null
+        },
+        {
+          "id": "huambo-huambo",
+          "nome": "Huambo",
+          "comunas": null
+        },
+        {
+          "id": "huambo-londuimbali",
+          "nome": "Londuimbali",
+          "comunas": null
+        },
+        {
+          "id": "huambo-longonjo",
+          "nome": "Longonjo",
+          "comunas": null
+        },
+        {
+          "id": "huambo-mungo",
+          "nome": "Mungo",
+          "comunas": null
+        },
+        {
+          "id": "huambo-sambo",
+          "nome": "Sambo",
+          "comunas": null
+        },
+        {
+          "id": "huambo-ucuma",
+          "nome": "Ucuma",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "huila",
+      "ordem_lei": 18,
+      "nome": "Huíla",
+      "sede": "Lubango",
+      "origem": null,
+      "lei_artigo": 427,
+      "total_municipios": 23,
+      "municipios": [
+        {
+          "id": "huila-caconda",
+          "nome": "Caconda",
+          "comunas": null
+        },
+        {
+          "id": "huila-cacula",
+          "nome": "Cacula",
+          "comunas": null
+        },
+        {
+          "id": "huila-caluquembe",
+          "nome": "Caluquembe",
+          "comunas": null
+        },
+        {
+          "id": "huila-capelongo",
+          "nome": "Capelongo",
+          "comunas": null
+        },
+        {
+          "id": "huila-capunda-cavilongo",
+          "nome": "Capunda Cavilongo",
+          "comunas": null
+        },
+        {
+          "id": "huila-chibia",
+          "nome": "Chibia",
+          "comunas": null
+        },
+        {
+          "id": "huila-chicomba",
+          "nome": "Chicomba",
+          "comunas": null
+        },
+        {
+          "id": "huila-chicungo",
+          "nome": "Chicungo",
+          "comunas": null
+        },
+        {
+          "id": "huila-chipindo",
+          "nome": "Chipindo",
+          "comunas": null
+        },
+        {
+          "id": "huila-chituto",
+          "nome": "Chituto",
+          "comunas": null
+        },
+        {
+          "id": "huila-cuvango",
+          "nome": "Cuvango",
+          "comunas": null
+        },
+        {
+          "id": "huila-dongo",
+          "nome": "Dongo",
+          "comunas": null
+        },
+        {
+          "id": "huila-galangue",
+          "nome": "Galangue",
+          "comunas": null
+        },
+        {
+          "id": "huila-gambos",
+          "nome": "Gambos",
+          "comunas": null
+        },
+        {
+          "id": "huila-hoque",
+          "nome": "Hoque",
+          "comunas": null
+        },
+        {
+          "id": "huila-humpata",
+          "nome": "Humpata",
+          "comunas": null
+        },
+        {
+          "id": "huila-jamba-mineira",
+          "nome": "Jamba Mineira",
+          "comunas": null
+        },
+        {
+          "id": "huila-lubango",
+          "nome": "Lubango",
+          "comunas": null
+        },
+        {
+          "id": "huila-matala",
+          "nome": "Matala",
+          "comunas": null
+        },
+        {
+          "id": "huila-palanca",
+          "nome": "Palanca",
+          "comunas": null
+        },
+        {
+          "id": "huila-quilengues",
+          "nome": "Quilengues",
+          "comunas": null
+        },
+        {
+          "id": "huila-quipungo",
+          "nome": "Quipungo",
+          "comunas": null
+        },
+        {
+          "id": "huila-viti-vivali",
+          "nome": "Viti Vivali",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "icolo-e-bengo",
+      "ordem_lei": 6,
+      "nome": "Icolo e Bengo",
+      "sede": "Catete",
+      "origem": "Luanda",
+      "lei_artigo": 123,
+      "total_municipios": 7,
+      "municipios": [
+        {
+          "id": "icolo-e-bengo-bom-jesus",
+          "nome": "Bom Jesus",
+          "comunas": null
+        },
+        {
+          "id": "icolo-e-bengo-cabiri",
+          "nome": "Cabiri",
+          "comunas": null
+        },
+        {
+          "id": "icolo-e-bengo-cabo-ledo",
+          "nome": "Cabo Ledo",
+          "comunas": null
+        },
+        {
+          "id": "icolo-e-bengo-calumbo",
+          "nome": "Calumbo",
+          "comunas": null
+        },
+        {
+          "id": "icolo-e-bengo-catete",
+          "nome": "Catete",
+          "comunas": null
+        },
+        {
+          "id": "icolo-e-bengo-quicama",
+          "nome": "Quiçama",
+          "comunas": null
+        },
+        {
+          "id": "icolo-e-bengo-sequele",
+          "nome": "Sequele",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "luanda",
+      "ordem_lei": 5,
+      "nome": "Luanda",
+      "sede": "Ingombota",
+      "origem": null,
+      "lei_artigo": 100,
+      "total_municipios": 16,
+      "municipios": [
+        {
+          "id": "luanda-belas",
+          "nome": "Belas",
+          "comunas": null
+        },
+        {
+          "id": "luanda-cacuaco",
+          "nome": "Cacuaco",
+          "comunas": null
+        },
+        {
+          "id": "luanda-camama",
+          "nome": "Camama",
+          "comunas": null
+        },
+        {
+          "id": "luanda-cazenga",
+          "nome": "Cazenga",
+          "comunas": null
+        },
+        {
+          "id": "luanda-hoji-ya-henda",
+          "nome": "Hoji ya Henda",
+          "comunas": null
+        },
+        {
+          "id": "luanda-ingombota",
+          "nome": "Ingombota",
+          "comunas": null
+        },
+        {
+          "id": "luanda-kilamba",
+          "nome": "Kilamba",
+          "comunas": null
+        },
+        {
+          "id": "luanda-kilamba-kiaxi",
+          "nome": "Kilamba Kiaxi",
+          "comunas": null
+        },
+        {
+          "id": "luanda-maianga",
+          "nome": "Maianga",
+          "comunas": null
+        },
+        {
+          "id": "luanda-mulenvos",
+          "nome": "Mulenvos",
+          "comunas": null
+        },
+        {
+          "id": "luanda-mussulo",
+          "nome": "Mussulo",
+          "comunas": null
+        },
+        {
+          "id": "luanda-rangel",
+          "nome": "Rangel",
+          "comunas": null
+        },
+        {
+          "id": "luanda-samba",
+          "nome": "Samba",
+          "comunas": null
+        },
+        {
+          "id": "luanda-sambizanga",
+          "nome": "Sambizanga",
+          "comunas": null
+        },
+        {
+          "id": "luanda-talatona",
+          "nome": "Talatona",
+          "comunas": null
+        },
+        {
+          "id": "luanda-viana",
+          "nome": "Viana",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "lunda-norte",
+      "ordem_lei": 10,
+      "nome": "Lunda-Norte",
+      "sede": "Dundo",
+      "origem": null,
+      "lei_artigo": 244,
+      "total_municipios": 19,
+      "municipios": [
+        {
+          "id": "lunda-norte-cafunfo",
+          "nome": "Cafunfo",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-camaxilo",
+          "nome": "Camaxilo",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-cambulo",
+          "nome": "Cambulo",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-canzar",
+          "nome": "Canzar",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-capenda-camulemba",
+          "nome": "Capenda Camulemba",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-cassanje-calucala",
+          "nome": "Cassanje Calucala",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-caungula",
+          "nome": "Caungula",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-chitato",
+          "nome": "Chitato",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-cuango",
+          "nome": "Cuango",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-cuilo",
+          "nome": "Cuilo",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-dundo",
+          "nome": "Dundo",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-lovua",
+          "nome": "Lóvua",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-luangue",
+          "nome": "Luangue",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-lubalo",
+          "nome": "Lubalo",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-lucapa",
+          "nome": "Lucapa",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-luremo",
+          "nome": "Luremo",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-mussungue",
+          "nome": "Mussungue",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-xa-cassau",
+          "nome": "Xá Cassau",
+          "comunas": null
+        },
+        {
+          "id": "lunda-norte-xa-muteba",
+          "nome": "Xá Muteba",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "lunda-sul",
+      "ordem_lei": 11,
+      "nome": "Lunda-Sul",
+      "sede": "Saurimo",
+      "origem": null,
+      "lei_artigo": 274,
+      "total_municipios": 14,
+      "municipios": [
+        {
+          "id": "lunda-sul-alto-chicapa",
+          "nome": "Alto Chicapa",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-cacolo",
+          "nome": "Cacolo",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-cassai-sul",
+          "nome": "Cassai-Sul",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-cassengo",
+          "nome": "Cassengo",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-cazage",
+          "nome": "Cazage",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-chiluage",
+          "nome": "Chiluage",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-dala",
+          "nome": "Dala",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-luma-cassai",
+          "nome": "Luma Cassai",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-muangueji",
+          "nome": "Muangueji",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-muconda",
+          "nome": "Muconda",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-muriege",
+          "nome": "Muriege",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-saurimo",
+          "nome": "Saurimo",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-sombo",
+          "nome": "Sombo",
+          "comunas": null
+        },
+        {
+          "id": "lunda-sul-xassengue",
+          "nome": "Xassengue",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "malanje",
+      "ordem_lei": 9,
+      "nome": "Malanje",
+      "sede": "Malanje",
+      "origem": null,
+      "lei_artigo": 198,
+      "total_municipios": 27,
+      "municipios": [
+        {
+          "id": "malanje-caculama",
+          "nome": "Caculama",
+          "comunas": null
+        },
+        {
+          "id": "malanje-cacuso",
+          "nome": "Cacuso",
+          "comunas": null
+        },
+        {
+          "id": "malanje-cahombo",
+          "nome": "Cahombo",
+          "comunas": null
+        },
+        {
+          "id": "malanje-calandula",
+          "nome": "Calandula",
+          "comunas": null
+        },
+        {
+          "id": "malanje-cambo-suinginge",
+          "nome": "Cambo Suinginge",
+          "comunas": null
+        },
+        {
+          "id": "malanje-cambundi-catembo",
+          "nome": "Cambundi Catembo",
+          "comunas": null
+        },
+        {
+          "id": "malanje-cangandala",
+          "nome": "Cangandala",
+          "comunas": null
+        },
+        {
+          "id": "malanje-capunda",
+          "nome": "Capunda",
+          "comunas": null
+        },
+        {
+          "id": "malanje-cateco-cangola",
+          "nome": "Cateco Cangola",
+          "comunas": null
+        },
+        {
+          "id": "malanje-cuale",
+          "nome": "Cuale",
+          "comunas": null
+        },
+        {
+          "id": "malanje-kiwaba-nzoji",
+          "nome": "Kiwaba Nzoji",
+          "comunas": null
+        },
+        {
+          "id": "malanje-kunda-dya-baze",
+          "nome": "Kunda dya Baze",
+          "comunas": null
+        },
+        {
+          "id": "malanje-luquembo",
+          "nome": "Luquembo",
+          "comunas": null
+        },
+        {
+          "id": "malanje-malanje",
+          "nome": "Malanje",
+          "comunas": null
+        },
+        {
+          "id": "malanje-marimba",
+          "nome": "Marimba",
+          "comunas": null
+        },
+        {
+          "id": "malanje-massango",
+          "nome": "Massango",
+          "comunas": null
+        },
+        {
+          "id": "malanje-mbanji-ya-ngola",
+          "nome": "Mbanji ya Ngola",
+          "comunas": null
+        },
+        {
+          "id": "malanje-milando",
+          "nome": "Milando",
+          "comunas": null
+        },
+        {
+          "id": "malanje-muquixe",
+          "nome": "Muquixe",
+          "comunas": null
+        },
+        {
+          "id": "malanje-ngola-luiji",
+          "nome": "Ngola Luiji",
+          "comunas": null
+        },
+        {
+          "id": "malanje-pungu-a-ndongo",
+          "nome": "Pungu a Ndongo",
+          "comunas": null
+        },
+        {
+          "id": "malanje-quela",
+          "nome": "Quela",
+          "comunas": null
+        },
+        {
+          "id": "malanje-quessua",
+          "nome": "Quêssua",
+          "comunas": null
+        },
+        {
+          "id": "malanje-quihuhu",
+          "nome": "Quihuhu",
+          "comunas": null
+        },
+        {
+          "id": "malanje-quirima",
+          "nome": "Quirima",
+          "comunas": null
+        },
+        {
+          "id": "malanje-quitapa",
+          "nome": "Quitapa",
+          "comunas": null
+        },
+        {
+          "id": "malanje-xandel",
+          "nome": "Xandel",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "moxico",
+      "ordem_lei": 12,
+      "nome": "Moxico",
+      "sede": "Luena",
+      "origem": null,
+      "lei_artigo": 291,
+      "total_municipios": 12,
+      "municipios": [
+        {
+          "id": "moxico-alto-cuito",
+          "nome": "Alto Cuito",
+          "comunas": null
+        },
+        {
+          "id": "moxico-camanongue",
+          "nome": "Camanongue",
+          "comunas": null
+        },
+        {
+          "id": "moxico-cangamba",
+          "nome": "Cangamba",
+          "comunas": null
+        },
+        {
+          "id": "moxico-cangumbe",
+          "nome": "Cangumbe",
+          "comunas": null
+        },
+        {
+          "id": "moxico-chiume",
+          "nome": "Chiúme",
+          "comunas": null
+        },
+        {
+          "id": "moxico-leua",
+          "nome": "Léua",
+          "comunas": null
+        },
+        {
+          "id": "moxico-lucusse",
+          "nome": "Lucusse",
+          "comunas": null
+        },
+        {
+          "id": "moxico-luena",
+          "nome": "Luena",
+          "comunas": null
+        },
+        {
+          "id": "moxico-lumbala-nguimbo",
+          "nome": "Lumbala Nguimbo",
+          "comunas": null
+        },
+        {
+          "id": "moxico-lutembo",
+          "nome": "Lutembo",
+          "comunas": null
+        },
+        {
+          "id": "moxico-lutuai",
+          "nome": "Lutuai",
+          "comunas": null
+        },
+        {
+          "id": "moxico-ninda",
+          "nome": "Ninda",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "moxico-leste",
+      "ordem_lei": 13,
+      "nome": "Moxico Leste",
+      "sede": "Cazombo",
+      "origem": "Moxico",
+      "lei_artigo": 309,
+      "total_municipios": 9,
+      "municipios": [
+        {
+          "id": "moxico-leste-caianda",
+          "nome": "Caianda",
+          "comunas": null
+        },
+        {
+          "id": "moxico-leste-cameia",
+          "nome": "Cameia",
+          "comunas": null
+        },
+        {
+          "id": "moxico-leste-cazombo",
+          "nome": "Cazombo",
+          "comunas": null
+        },
+        {
+          "id": "moxico-leste-lago-dilolo",
+          "nome": "Lago Dilolo",
+          "comunas": null
+        },
+        {
+          "id": "moxico-leste-lovua-do-zambeze",
+          "nome": "Lóvua do Zambeze",
+          "comunas": null
+        },
+        {
+          "id": "moxico-leste-luacano",
+          "nome": "Luacano",
+          "comunas": null
+        },
+        {
+          "id": "moxico-leste-luau",
+          "nome": "Luau",
+          "comunas": null
+        },
+        {
+          "id": "moxico-leste-macondo",
+          "nome": "Macondo",
+          "comunas": null
+        },
+        {
+          "id": "moxico-leste-nana-candundo",
+          "nome": "Nana Candundo",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "namibe",
+      "ordem_lei": 17,
+      "nome": "Namibe",
+      "sede": "Moçâmedes",
+      "origem": null,
+      "lei_artigo": 413,
+      "total_municipios": 9,
+      "municipios": [
+        {
+          "id": "namibe-bibala",
+          "nome": "Bibala",
+          "comunas": null
+        },
+        {
+          "id": "namibe-cacimbas",
+          "nome": "Cacimbas",
+          "comunas": null
+        },
+        {
+          "id": "namibe-camucuio",
+          "nome": "Camucuio",
+          "comunas": null
+        },
+        {
+          "id": "namibe-iona",
+          "nome": "Iona",
+          "comunas": null
+        },
+        {
+          "id": "namibe-lucira",
+          "nome": "Lucira",
+          "comunas": null
+        },
+        {
+          "id": "namibe-mocamedes",
+          "nome": "Moçâmedes",
+          "comunas": null
+        },
+        {
+          "id": "namibe-sacomar",
+          "nome": "Sacomar",
+          "comunas": null
+        },
+        {
+          "id": "namibe-tombwa",
+          "nome": "Tômbwa",
+          "comunas": null
+        },
+        {
+          "id": "namibe-virei",
+          "nome": "Virei",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "uige",
+      "ordem_lei": 3,
+      "nome": "Uíge",
+      "sede": "Uíge",
+      "origem": null,
+      "lei_artigo": 39,
+      "total_municipios": 23,
+      "municipios": [
+        {
+          "id": "uige-alto-zaza",
+          "nome": "Alto Zaza",
+          "comunas": null
+        },
+        {
+          "id": "uige-ambuila",
+          "nome": "Ambuíla",
+          "comunas": null
+        },
+        {
+          "id": "uige-bembe",
+          "nome": "Bembe",
+          "comunas": null
+        },
+        {
+          "id": "uige-bungo",
+          "nome": "Bungo",
+          "comunas": null
+        },
+        {
+          "id": "uige-cangola",
+          "nome": "Cangola",
+          "comunas": null
+        },
+        {
+          "id": "uige-damba",
+          "nome": "Damba",
+          "comunas": null
+        },
+        {
+          "id": "uige-dange-quitexe",
+          "nome": "Dange Quitexe",
+          "comunas": null
+        },
+        {
+          "id": "uige-lucunga",
+          "nome": "Lucunga",
+          "comunas": null
+        },
+        {
+          "id": "uige-maquela-do-zombo",
+          "nome": "Maquela do Zombo",
+          "comunas": null
+        },
+        {
+          "id": "uige-massau",
+          "nome": "Massau",
+          "comunas": null
+        },
+        {
+          "id": "uige-milunga",
+          "nome": "Milunga",
+          "comunas": null
+        },
+        {
+          "id": "uige-mucaba",
+          "nome": "Mucaba",
+          "comunas": null
+        },
+        {
+          "id": "uige-negage",
+          "nome": "Negage",
+          "comunas": null
+        },
+        {
+          "id": "uige-nova-esperanca",
+          "nome": "Nova Esperança",
+          "comunas": null
+        },
+        {
+          "id": "uige-nsosso",
+          "nome": "Nsosso",
+          "comunas": null
+        },
+        {
+          "id": "uige-puri",
+          "nome": "Puri",
+          "comunas": null
+        },
+        {
+          "id": "uige-quimbele",
+          "nome": "Quimbele",
+          "comunas": null
+        },
+        {
+          "id": "uige-quipedro",
+          "nome": "Quipedro",
+          "comunas": null
+        },
+        {
+          "id": "uige-sacandica",
+          "nome": "Sacandica",
+          "comunas": null
+        },
+        {
+          "id": "uige-sanza-pombo",
+          "nome": "Sanza Pombo",
+          "comunas": null
+        },
+        {
+          "id": "uige-songo",
+          "nome": "Songo",
+          "comunas": null
+        },
+        {
+          "id": "uige-uige",
+          "nome": "Uíge",
+          "comunas": null
+        },
+        {
+          "id": "uige-vista-alegre",
+          "nome": "Vista Alegre",
+          "comunas": null
+        }
+      ]
+    },
+    {
+      "id": "zaire",
+      "ordem_lei": 2,
+      "nome": "Zaire",
+      "sede": "Mbanza Kongo",
+      "origem": null,
+      "lei_artigo": 20,
+      "total_municipios": 11,
+      "municipios": [
+        {
+          "id": "zaire-cuimba",
+          "nome": "Cuimba",
+          "comunas": null
+        },
+        {
+          "id": "zaire-lufico",
+          "nome": "Lufico",
+          "comunas": null
+        },
+        {
+          "id": "zaire-luvo",
+          "nome": "Luvo",
+          "comunas": null
+        },
+        {
+          "id": "zaire-mbanza-kongo",
+          "nome": "Mbanza Kongo",
+          "comunas": null
+        },
+        {
+          "id": "zaire-noqui",
+          "nome": "Nóqui",
+          "comunas": null
+        },
+        {
+          "id": "zaire-nzeto",
+          "nome": "Nzeto",
+          "comunas": null
+        },
+        {
+          "id": "zaire-quelo",
+          "nome": "Quêlo",
+          "comunas": null
+        },
+        {
+          "id": "zaire-quindeje",
+          "nome": "Quindeje",
+          "comunas": null
+        },
+        {
+          "id": "zaire-serra-de-canda",
+          "nome": "Serra de Canda",
+          "comunas": null
+        },
+        {
+          "id": "zaire-soyo",
+          "nome": "Soyo",
+          "comunas": null
+        },
+        {
+          "id": "zaire-tomboco",
+          "nome": "Tomboco",
+          "comunas": null
+        }
+      ]
+    }
+  ]
+}

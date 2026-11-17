@@ -1,0 +1,327 @@
+id,provincia_id,nome,lei_artigo
+bengo-ambriz,bengo,Ambriz,89
+bengo-barra-do-dande,bengo,Barra do Dande,93
+bengo-bula-atumba,bengo,Bula Atumba,87
+bengo-dande,bengo,Dande,81
+bengo-muxaluando,bengo,Muxaluando,85
+bengo-nambuangongo,bengo,Nambuangongo,96
+bengo-pango-aluquem,bengo,Pango Aluquém,91
+bengo-panguila,bengo,Panguila,99
+bengo-piri,bengo,Piri,94
+bengo-quibaxe,bengo,Quibaxe,83
+bengo-quicunzo,bengo,Quicunzo,95
+bengo-ucua,bengo,Úcua,98
+benguela-babaera,benguela,Babaera,407
+benguela-baia-farta,benguela,Baía Farta,394
+benguela-balombo,benguela,Balombo,391
+benguela-benguela,benguela,Benguela,385
+benguela-biopio,benguela,Biópio,404
+benguela-bocoio,benguela,Bocoio,389
+benguela-bolonguera,benguela,Bolonguera,410
+benguela-caimbambo,benguela,Caimbambo,395
+benguela-canhamela,benguela,Canhamela,411
+benguela-capupa,benguela,Capupa,403
+benguela-catengue,benguela,Catengue,409
+benguela-catumbela,benguela,Catumbela,388
+benguela-chicuma,benguela,Chicuma,406
+benguela-chila,benguela,Chila,405
+benguela-chindumbo,benguela,Chindumbo,401
+benguela-chongoroi,benguela,Chongorói,397
+benguela-cubal,benguela,Cubal,393
+benguela-dombe-grande,benguela,Dombe Grande,402
+benguela-egito-praia,benguela,Egito Praia,399
+benguela-ganda,benguela,Ganda,386
+benguela-iambala,benguela,Iambala,408
+benguela-lobito,benguela,Lobito,387
+benguela-navegantes,benguela,Navegantes,412
+bie-andulo,bie,Andulo,322
+bie-belo-horizonte,bie,Belo Horizonte,351
+bie-calucinga,bie,Calucinga,343
+bie-camacupa,bie,Camacupa,328
+bie-cambandua,bie,Cambândua,350
+bie-catabola,bie,Catabola,332
+bie-chicala,bie,Chicala,344
+bie-chinguar,bie,Chinguar,330
+bie-chipeta,bie,Chipeta,345
+bie-chitembo,bie,Chitembo,324
+bie-cuemba,bie,Cuemba,335
+bie-cuito,bie,Cuito,326
+bie-cunhinga,bie,Cunhinga,334
+bie-luando,bie,Luando,339
+bie-lubia,bie,Lúbia,348
+bie-mumbue,bie,Mumbué,341
+bie-nharea,bie,Nharêa,337
+bie-ringoma,bie,Ringoma,340
+bie-umpulo,bie,Umpulo,347
+cabinda-belize,cabinda,Belize,10
+cabinda-buco-zau,cabinda,Buco Zau,9
+cabinda-cabinda,cabinda,Cabinda,6
+cabinda-cacongo,cabinda,Cacongo,7
+cabinda-liambo,cabinda,Liambo,18
+cabinda-massabi,cabinda,Massabi,13
+cabinda-miconje,cabinda,Miconje,12
+cabinda-necuto,cabinda,Necuto,14
+cabinda-ngoio,cabinda,Ngoio,19
+cabinda-tando-zinze,cabinda,Tando Zinze,16
+cuando-cuito-cuanavale,cuando,Cuito Cuanavale,502
+cuando-dima,cuando,Dima,509
+cuando-dirico,cuando,Dirico,504
+cuando-luengue,cuando,Luengue,513
+cuando-luiana,cuando,Luiana,511
+cuando-mavinga,cuando,Mavinga,506
+cuando-mucusso,cuando,Mucusso,512
+cuando-rivungo,cuando,Rivungo,507
+cuando-xipundo,cuando,Xipundo,508
+cuanza-norte-aldeia-nova,cuanza-norte,Aldeia Nova,159
+cuanza-norte-ambaca,cuanza-norte,Ambaca,143
+cuanza-norte-banga,cuanza-norte,Banga,147
+cuanza-norte-bolongongo,cuanza-norte,Bolongongo,149
+cuanza-norte-caculo-cabaca,cuanza-norte,Caculo Cabaça,160
+cuanza-norte-cambambe,cuanza-norte,Cambambe,139
+cuanza-norte-cazengo,cuanza-norte,Cazengo,135
+cuanza-norte-cerca,cuanza-norte,Cêrca,155
+cuanza-norte-golungo-alto,cuanza-norte,Golungo Alto,137
+cuanza-norte-lucala,cuanza-norte,Lucala,145
+cuanza-norte-luinga,cuanza-norte,Luinga,161
+cuanza-norte-massangano,cuanza-norte,Massangano,153
+cuanza-norte-ngonguembo,cuanza-norte,Ngonguembo,151
+cuanza-norte-quiculungo,cuanza-norte,Quiculungo,150
+cuanza-norte-samba-caju,cuanza-norte,Samba Cajú,141
+cuanza-norte-tango,cuanza-norte,Tango,156
+cuanza-norte-terreiro,cuanza-norte,Terreiro,157
+cuanza-sul-amboiva,cuanza-sul,Amboiva,193
+cuanza-sul-boa-entrada,cuanza-sul,Boa Entrada,197
+cuanza-sul-calulo,cuanza-sul,Calulo,165
+cuanza-sul-cassongue,cuanza-sul,Cassongue,169
+cuanza-sul-conda,cuanza-sul,Conda,183
+cuanza-sul-conde,cuanza-sul,Condé,192
+cuanza-sul-ebo,cuanza-sul,Ebo,181
+cuanza-sul-gabela,cuanza-sul,Gabela,167
+cuanza-sul-gangula,cuanza-sul,Gangula,190
+cuanza-sul-gungo,cuanza-sul,Gungo,188
+cuanza-sul-lonhe,cuanza-sul,Lonhe,194
+cuanza-sul-munenga,cuanza-sul,Munenga,186
+cuanza-sul-mussende,cuanza-sul,Mussende,178
+cuanza-sul-pambangala,cuanza-sul,Pambangala,191
+cuanza-sul-porto-amboim,cuanza-sul,Porto Amboím,171
+cuanza-sul-quenha,cuanza-sul,Quenha,196
+cuanza-sul-quibala,cuanza-sul,Quibala,173
+cuanza-sul-quilenda,cuanza-sul,Quilenda,180
+cuanza-sul-quirimbo,cuanza-sul,Quirimbo,185
+cuanza-sul-quissongo,cuanza-sul,Quissongo,187
+cuanza-sul-sanga,cuanza-sul,Sanga,189
+cuanza-sul-seles,cuanza-sul,Seles,175
+cuanza-sul-sumbe,cuanza-sul,Sumbe,163
+cuanza-sul-waku-kungo,cuanza-sul,Waku Kungo,177
+cubango-caiundo,cubango,Caiundo,492
+cubango-calai,cubango,Calai,486
+cubango-chinguanja,cubango,Chinguanja,498
+cubango-cuangar,cubango,Cuangar,489
+cubango-cuchi,cubango,Cuchi,485
+cubango-cutato,cubango,Cutato,496
+cubango-longa,cubango,Longa,494
+cubango-mavengue,cubango,Mavengue,499
+cubango-menongue,cubango,Menongue,484
+cubango-nancova,cubango,Nancova,487
+cubango-savate,cubango,Savate,490
+cunene-cafima,cunene,Cafima,481
+cunene-cahama,cunene,Cahama,469
+cunene-chiede,cunene,Chiéde,473
+cunene-chissuata,cunene,Chissuata,482
+cunene-chitado,cunene,Chitado,480
+cunene-cuanhama,cunene,Cuanhama,466
+cunene-curoca,cunene,Curoca,468
+cunene-cuvelai,cunene,Cuvelai,471
+cunene-humbe,cunene,Humbe,476
+cunene-mupa,cunene,Mupa,478
+cunene-namacunde,cunene,Namacunde,472
+cunene-naulila,cunene,Naulila,479
+cunene-nehone,cunene,Nehone,474
+cunene-ombadja,cunene,Ombadja,464
+huambo-alto-hama,huambo,Alto Hama,380
+huambo-bailundo,huambo,Bailundo,353
+huambo-bimbe,huambo,Bimbe,374
+huambo-caala,huambo,Caála,359
+huambo-cachiungo,huambo,Cachiungo,362
+huambo-chicala-choloanga,huambo,Chicala Choloanga,360
+huambo-chilata,huambo,Chilata,381
+huambo-chinjenje,huambo,Chinjenje,372
+huambo-cuima,huambo,Cuima,382
+huambo-ecunha,huambo,Ecunha,370
+huambo-galanga,huambo,Galanga,378
+huambo-huambo,huambo,Huambo,355
+huambo-londuimbali,huambo,Londuimbali,357
+huambo-longonjo,huambo,Longonjo,366
+huambo-mungo,huambo,Mungo,364
+huambo-sambo,huambo,Sambo,376
+huambo-ucuma,huambo,Ucuma,368
+huila-caconda,huila,Caconda,428
+huila-cacula,huila,Cacula,450
+huila-caluquembe,huila,Caluquembe,441
+huila-capelongo,huila,Capelongo,454
+huila-capunda-cavilongo,huila,Capunda Cavilongo,457
+huila-chibia,huila,Chibia,437
+huila-chicomba,huila,Chicomba,448
+huila-chicungo,huila,Chicungo,462
+huila-chipindo,huila,Chipindo,446
+huila-chituto,huila,Chituto,456
+huila-cuvango,huila,Cuvango,435
+huila-dongo,huila,Dongo,452
+huila-galangue,huila,Galangue,460
+huila-gambos,huila,Gambos,430
+huila-hoque,huila,Hoque,453
+huila-humpata,huila,Humpata,432
+huila-jamba-mineira,huila,Jamba Mineira,444
+huila-lubango,huila,Lubango,433
+huila-matala,huila,Matala,443
+huila-palanca,huila,Palanca,461
+huila-quilengues,huila,Quilengues,439
+huila-quipungo,huila,Quipungo,436
+huila-viti-vivali,huila,Viti Vivali,459
+icolo-e-bengo-bom-jesus,icolo-e-bengo,Bom Jesus,131
+icolo-e-bengo-cabiri,icolo-e-bengo,Cabiri,129
+icolo-e-bengo-cabo-ledo,icolo-e-bengo,Cabo Ledo,130
+icolo-e-bengo-calumbo,icolo-e-bengo,Calumbo,128
+icolo-e-bengo-catete,icolo-e-bengo,Catete,124
+icolo-e-bengo-quicama,icolo-e-bengo,Quiçama,126
+icolo-e-bengo-sequele,icolo-e-bengo,Sequele,132
+luanda-belas,luanda,Belas,107
+luanda-cacuaco,luanda,Cacuaco,102
+luanda-camama,luanda,Camama,118
+luanda-cazenga,luanda,Cazenga,104
+luanda-hoji-ya-henda,luanda,Hoji ya Henda,122
+luanda-ingombota,luanda,Ingombota,101
+luanda-kilamba,luanda,Kilamba,120
+luanda-kilamba-kiaxi,luanda,Kilamba Kiaxi,109
+luanda-maianga,luanda,Maianga,116
+luanda-mulenvos,luanda,Mulenvos,119
+luanda-mussulo,luanda,Mussulo,113
+luanda-rangel,luanda,Rangel,115
+luanda-samba,luanda,Samba,117
+luanda-sambizanga,luanda,Sambizanga,114
+luanda-talatona,luanda,Talatona,111
+luanda-viana,luanda,Viana,106
+lunda-norte-cafunfo,lunda-norte,Cafunfo,273
+lunda-norte-camaxilo,lunda-norte,Camaxilo,264
+lunda-norte-cambulo,lunda-norte,Cambulo,256
+lunda-norte-canzar,lunda-norte,Canzar,267
+lunda-norte-capenda-camulemba,lunda-norte,Capenda Camulemba,251
+lunda-norte-cassanje-calucala,lunda-norte,Cassanje Calucala,269
+lunda-norte-caungula,lunda-norte,Caungula,259
+lunda-norte-chitato,lunda-norte,Chitato,261
+lunda-norte-cuango,lunda-norte,Cuango,253
+lunda-norte-cuilo,lunda-norte,Cuilo,245
+lunda-norte-dundo,lunda-norte,Dundo,247
+lunda-norte-lovua,lunda-norte,Lóvua,260
+lunda-norte-luangue,lunda-norte,Luangue,265
+lunda-norte-lubalo,lunda-norte,Lubalo,249
+lunda-norte-lucapa,lunda-norte,Lucapa,254
+lunda-norte-luremo,lunda-norte,Luremo,266
+lunda-norte-mussungue,lunda-norte,Mussungue,271
+lunda-norte-xa-cassau,lunda-norte,Xá Cassau,262
+lunda-norte-xa-muteba,lunda-norte,Xá Muteba,258
+lunda-sul-alto-chicapa,lunda-sul,Alto Chicapa,284
+lunda-sul-cacolo,lunda-sul,Cacolo,278
+lunda-sul-cassai-sul,lunda-sul,Cassai-Sul,281
+lunda-sul-cassengo,lunda-sul,Cassengo,290
+lunda-sul-cazage,lunda-sul,Cazage,288
+lunda-sul-chiluage,lunda-sul,Chiluage,280
+lunda-sul-dala,lunda-sul,Dala,279
+lunda-sul-luma-cassai,lunda-sul,Luma Cassai,287
+lunda-sul-muangueji,lunda-sul,Muangueji,289
+lunda-sul-muconda,lunda-sul,Muconda,277
+lunda-sul-muriege,lunda-sul,Muriege,286
+lunda-sul-saurimo,lunda-sul,Saurimo,275
+lunda-sul-sombo,lunda-sul,Sombo,285
+lunda-sul-xassengue,lunda-sul,Xassengue,282
+malanje-caculama,malanje,Caculama,220
+malanje-cacuso,malanje,Cacuso,203
+malanje-cahombo,malanje,Cahombo,214
+malanje-calandula,malanje,Calandula,199
+malanje-cambo-suinginge,malanje,Cambo Suinginge,237
+malanje-cambundi-catembo,malanje,Cambundi Catembo,218
+malanje-cangandala,malanje,Cangandala,212
+malanje-capunda,malanje,Capunda,240
+malanje-cateco-cangola,malanje,Cateco Cangola,226
+malanje-cuale,malanje,Cuale,229
+malanje-kiwaba-nzoji,malanje,Kiwaba Nzoji,222
+malanje-kunda-dya-baze,malanje,Kunda dya Baze,216
+malanje-luquembo,malanje,Luquembo,224
+malanje-malanje,malanje,Malanje,201
+malanje-marimba,malanje,Marimba,206
+malanje-massango,malanje,Massango,205
+malanje-mbanji-ya-ngola,malanje,Mbanji ya Ngola,227
+malanje-milando,malanje,Milando,238
+malanje-muquixe,malanje,Muquixe,242
+malanje-ngola-luiji,malanje,Ngola Luiji,231
+malanje-pungu-a-ndongo,malanje,Pungu a Ndongo,230
+malanje-quela,malanje,Quela,208
+malanje-quessua,malanje,Quêssua,243
+malanje-quihuhu,malanje,Quihuhu,233
+malanje-quirima,malanje,Quirima,210
+malanje-quitapa,malanje,Quitapa,239
+malanje-xandel,malanje,Xandel,235
+moxico-alto-cuito,moxico,Alto Cuito,306
+moxico-camanongue,moxico,Camanongue,298
+moxico-cangamba,moxico,Cangamba,294
+moxico-cangumbe,moxico,Cangumbe,304
+moxico-chiume,moxico,Chiúme,305
+moxico-leua,moxico,Léua,299
+moxico-lucusse,moxico,Lucusse,303
+moxico-luena,moxico,Luena,292
+moxico-lumbala-nguimbo,moxico,Lumbala Nguimbo,296
+moxico-lutembo,moxico,Lutembo,301
+moxico-lutuai,moxico,Lutuai,308
+moxico-ninda,moxico,Ninda,307
+moxico-leste-caianda,moxico-leste,Caianda,318
+moxico-leste-cameia,moxico-leste,Cameia,313
+moxico-leste-cazombo,moxico-leste,Cazombo,310
+moxico-leste-lago-dilolo,moxico-leste,Lago Dilolo,320
+moxico-leste-lovua-do-zambeze,moxico-leste,Lóvua do Zambeze,319
+moxico-leste-luacano,moxico-leste,Luacano,312
+moxico-leste-luau,moxico-leste,Luau,314
+moxico-leste-macondo,moxico-leste,Macondo,316
+moxico-leste-nana-candundo,moxico-leste,Nana Candundo,315
+namibe-bibala,namibe,Bibala,416
+namibe-cacimbas,namibe,Cacimbas,426
+namibe-camucuio,namibe,Camucuio,420
+namibe-iona,namibe,Iona,424
+namibe-lucira,namibe,Lucira,422
+namibe-mocamedes,namibe,Moçâmedes,414
+namibe-sacomar,namibe,Sacomar,425
+namibe-tombwa,namibe,Tômbwa,415
+namibe-virei,namibe,Virei,418
+uige-alto-zaza,uige,Alto Zaza,78
+uige-ambuila,uige,Ambuíla,43
+uige-bembe,uige,Bembe,53
+uige-bungo,uige,Bungo,42
+uige-cangola,uige,Cangola,61
+uige-damba,uige,Damba,49
+uige-dange-quitexe,uige,Dange Quitexe,40
+uige-lucunga,uige,Lucunga,72
+uige-maquela-do-zombo,uige,Maquela do Zombo,47
+uige-massau,uige,Massau,74
+uige-milunga,uige,Milunga,55
+uige-mucaba,uige,Mucaba,65
+uige-negage,uige,Negage,44
+uige-nova-esperanca,uige,Nova Esperança,67
+uige-nsosso,uige,Nsosso,71
+uige-puri,uige,Puri,46
+uige-quimbele,uige,Quimbele,59
+uige-quipedro,uige,Quipedro,73
+uige-sacandica,uige,Sacandica,69
+uige-sanza-pombo,uige,Sanza Pombo,51
+uige-songo,uige,Songo,57
+uige-uige,uige,Uíge,63
+uige-vista-alegre,uige,Vista Alegre,76
+zaire-cuimba,zaire,Cuimba,29
+zaire-lufico,zaire,Lufico,33
+zaire-luvo,zaire,Luvo,32
+zaire-mbanza-kongo,zaire,Mbanza Kongo,23
+zaire-noqui,zaire,Nóqui,31
+zaire-nzeto,zaire,Nzeto,25
+zaire-quelo,zaire,Quêlo,35
+zaire-quindeje,zaire,Quindeje,37
+zaire-serra-de-canda,zaire,Serra de Canda,36
+zaire-soyo,zaire,Soyo,21
+zaire-tomboco,zaire,Tomboco,27

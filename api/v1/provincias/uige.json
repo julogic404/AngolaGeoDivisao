@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "uige",
+    "ordem_lei": 3,
+    "nome": "Uíge",
+    "sede": "Uíge",
+    "origem": null,
+    "lei_artigo": 39,
+    "total_municipios": 23,
+    "municipios": [
+      {
+        "id": "uige-alto-zaza",
+        "nome": "Alto Zaza",
+        "lei_artigo": 78
+      },
+      {
+        "id": "uige-ambuila",
+        "nome": "Ambuíla",
+        "lei_artigo": 43
+      },
+      {
+        "id": "uige-bembe",
+        "nome": "Bembe",
+        "lei_artigo": 53
+      },
+      {
+        "id": "uige-bungo",
+        "nome": "Bungo",
+        "lei_artigo": 42
+      },
+      {
+        "id": "uige-cangola",
+        "nome": "Cangola",
+        "lei_artigo": 61
+      },
+      {
+        "id": "uige-damba",
+        "nome": "Damba",
+        "lei_artigo": 49
+      },
+      {
+        "id": "uige-dange-quitexe",
+        "nome": "Dange Quitexe",
+        "lei_artigo": 40
+      },
+      {
+        "id": "uige-lucunga",
+        "nome": "Lucunga",
+        "lei_artigo": 72
+      },
+      {
+        "id": "uige-maquela-do-zombo",
+        "nome": "Maquela do Zombo",
+        "lei_artigo": 47
+      },
+      {
+        "id": "uige-massau",
+        "nome": "Massau",
+        "lei_artigo": 74
+      },
+      {
+        "id": "uige-milunga",
+        "nome": "Milunga",
+        "lei_artigo": 55
+      },
+      {
+        "id": "uige-mucaba",
+        "nome": "Mucaba",
+        "lei_artigo": 65
+      },
+      {
+        "id": "uige-negage",
+        "nome": "Negage",
+        "lei_artigo": 44
+      },
+      {
+        "id": "uige-nova-esperanca",
+        "nome": "Nova Esperança",
+        "lei_artigo": 67
+      },
+      {
+        "id": "uige-nsosso",
+        "nome": "Nsosso",
+        "lei_artigo": 71
+      },
+      {
+        "id": "uige-puri",
+        "nome": "Puri",
+        "lei_artigo": 46
+      },
+      {
+        "id": "uige-quimbele",
+        "nome": "Quimbele",
+        "lei_artigo": 59
+      },
+      {
+        "id": "uige-quipedro",
+        "nome": "Quipedro",
+        "lei_artigo": 73
+      },
+      {
+        "id": "uige-sacandica",
+        "nome": "Sacandica",
+        "lei_artigo": 69
+      },
+      {
+        "id": "uige-sanza-pombo",
+        "nome": "Sanza Pombo",
+        "lei_artigo": 51
+      },
+      {
+        "id": "uige-songo",
+        "nome": "Songo",
+        "lei_artigo": 57
+      },
+      {
+        "id": "uige-uige",
+        "nome": "Uíge",
+        "lei_artigo": 63
+      },
+      {
+        "id": "uige-vista-alegre",
+        "nome": "Vista Alegre",
+        "lei_artigo": 76
+      }
+    ]
+  }
+}

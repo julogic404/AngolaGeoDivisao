@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "moxico",
+    "ordem_lei": 12,
+    "nome": "Moxico",
+    "sede": "Luena",
+    "origem": null,
+    "lei_artigo": 291,
+    "total_municipios": 12,
+    "municipios": [
+      {
+        "id": "moxico-alto-cuito",
+        "nome": "Alto Cuito",
+        "lei_artigo": 306
+      },
+      {
+        "id": "moxico-camanongue",
+        "nome": "Camanongue",
+        "lei_artigo": 298
+      },
+      {
+        "id": "moxico-cangamba",
+        "nome": "Cangamba",
+        "lei_artigo": 294
+      },
+      {
+        "id": "moxico-cangumbe",
+        "nome": "Cangumbe",
+        "lei_artigo": 304
+      },
+      {
+        "id": "moxico-chiume",
+        "nome": "Chiúme",
+        "lei_artigo": 305
+      },
+      {
+        "id": "moxico-leua",
+        "nome": "Léua",
+        "lei_artigo": 299
+      },
+      {
+        "id": "moxico-lucusse",
+        "nome": "Lucusse",
+        "lei_artigo": 303
+      },
+      {
+        "id": "moxico-luena",
+        "nome": "Luena",
+        "lei_artigo": 292
+      },
+      {
+        "id": "moxico-lumbala-nguimbo",
+        "nome": "Lumbala Nguimbo",
+        "lei_artigo": 296
+      },
+      {
+        "id": "moxico-lutembo",
+        "nome": "Lutembo",
+        "lei_artigo": 301
+      },
+      {
+        "id": "moxico-lutuai",
+        "nome": "Lutuai",
+        "lei_artigo": 308
+      },
+      {
+        "id": "moxico-ninda",
+        "nome": "Ninda",
+        "lei_artigo": 307
+      }
+    ]
+  }
+}

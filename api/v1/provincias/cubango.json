@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "cubango",
+    "ordem_lei": 20,
+    "nome": "Cubango",
+    "sede": "Menongue",
+    "origem": "Cuando Cubango",
+    "lei_artigo": 483,
+    "total_municipios": 11,
+    "municipios": [
+      {
+        "id": "cubango-caiundo",
+        "nome": "Caiundo",
+        "lei_artigo": 492
+      },
+      {
+        "id": "cubango-calai",
+        "nome": "Calai",
+        "lei_artigo": 486
+      },
+      {
+        "id": "cubango-chinguanja",
+        "nome": "Chinguanja",
+        "lei_artigo": 498
+      },
+      {
+        "id": "cubango-cuangar",
+        "nome": "Cuangar",
+        "lei_artigo": 489
+      },
+      {
+        "id": "cubango-cuchi",
+        "nome": "Cuchi",
+        "lei_artigo": 485
+      },
+      {
+        "id": "cubango-cutato",
+        "nome": "Cutato",
+        "lei_artigo": 496
+      },
+      {
+        "id": "cubango-longa",
+        "nome": "Longa",
+        "lei_artigo": 494
+      },
+      {
+        "id": "cubango-mavengue",
+        "nome": "Mavengue",
+        "lei_artigo": 499
+      },
+      {
+        "id": "cubango-menongue",
+        "nome": "Menongue",
+        "lei_artigo": 484
+      },
+      {
+        "id": "cubango-nancova",
+        "nome": "Nancova",
+        "lei_artigo": 487
+      },
+      {
+        "id": "cubango-savate",
+        "nome": "Savate",
+        "lei_artigo": 490
+      }
+    ]
+  }
+}

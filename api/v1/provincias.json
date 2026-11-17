@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": [
+    {
+      "id": "bengo",
+      "ordem_lei": 4,
+      "nome": "Bengo",
+      "sede": "Dande",
+      "origem": null,
+      "lei_artigo": 80,
+      "total_municipios": 12
+    },
+    {
+      "id": "benguela",
+      "ordem_lei": 16,
+      "nome": "Benguela",
+      "sede": "Benguela",
+      "origem": null,
+      "lei_artigo": 384,
+      "total_municipios": 23
+    },
+    {
+      "id": "bie",
+      "ordem_lei": 14,
+      "nome": "Bié",
+      "sede": "Cuito",
+      "origem": null,
+      "lei_artigo": 321,
+      "total_municipios": 19
+    },
+    {
+      "id": "cabinda",
+      "ordem_lei": 1,
+      "nome": "Cabinda",
+      "sede": "Cabinda",
+      "origem": null,
+      "lei_artigo": 5,
+      "total_municipios": 10
+    },
+    {
+      "id": "cuando",
+      "ordem_lei": 21,
+      "nome": "Cuando",
+      "sede": "Mavinga",
+      "origem": "Cuando Cubango",
+      "lei_artigo": 501,
+      "total_municipios": 9
+    },
+    {
+      "id": "cuanza-norte",
+      "ordem_lei": 7,
+      "nome": "Cuanza-Norte",
+      "sede": "Cazengo",
+      "origem": null,
+      "lei_artigo": 134,
+      "total_municipios": 17
+    },
+    {
+      "id": "cuanza-sul",
+      "ordem_lei": 8,
+      "nome": "Cuanza-Sul",
+      "sede": "Sumbe",
+      "origem": null,
+      "lei_artigo": 162,
+      "total_municipios": 24
+    },
+    {
+      "id": "cubango",
+      "ordem_lei": 20,
+      "nome": "Cubango",
+      "sede": "Menongue",
+      "origem": "Cuando Cubango",
+      "lei_artigo": 483,
+      "total_municipios": 11
+    },
+    {
+      "id": "cunene",
+      "ordem_lei": 19,
+      "nome": "Cunene",
+      "sede": "Cuanhama",
+      "origem": null,
+      "lei_artigo": 463,
+      "total_municipios": 14
+    },
+    {
+      "id": "huambo",
+      "ordem_lei": 15,
+      "nome": "Huambo",
+      "sede": "Huambo",
+      "origem": null,
+      "lei_artigo": 352,
+      "total_municipios": 17
+    },
+    {
+      "id": "huila",
+      "ordem_lei": 18,
+      "nome": "Huíla",
+      "sede": "Lubango",
+      "origem": null,
+      "lei_artigo": 427,
+      "total_municipios": 23
+    },
+    {
+      "id": "icolo-e-bengo",
+      "ordem_lei": 6,
+      "nome": "Icolo e Bengo",
+      "sede": "Catete",
+      "origem": "Luanda",
+      "lei_artigo": 123,
+      "total_municipios": 7
+    },
+    {
+      "id": "luanda",
+      "ordem_lei": 5,
+      "nome": "Luanda",
+      "sede": "Ingombota",
+      "origem": null,
+      "lei_artigo": 100,
+      "total_municipios": 16
+    },
+    {
+      "id": "lunda-norte",
+      "ordem_lei": 10,
+      "nome": "Lunda-Norte",
+      "sede": "Dundo",
+      "origem": null,
+      "lei_artigo": 244,
+      "total_municipios": 19
+    },
+    {
+      "id": "lunda-sul",
+      "ordem_lei": 11,
+      "nome": "Lunda-Sul",
+      "sede": "Saurimo",
+      "origem": null,
+      "lei_artigo": 274,
+      "total_municipios": 14
+    },
+    {
+      "id": "malanje",
+      "ordem_lei": 9,
+      "nome": "Malanje",
+      "sede": "Malanje",
+      "origem": null,
+      "lei_artigo": 198,
+      "total_municipios": 27
+    },
+    {
+      "id": "moxico",
+      "ordem_lei": 12,
+      "nome": "Moxico",
+      "sede": "Luena",
+      "origem": null,
+      "lei_artigo": 291,
+      "total_municipios": 12
+    },
+    {
+      "id": "moxico-leste",
+      "ordem_lei": 13,
+      "nome": "Moxico Leste",
+      "sede": "Cazombo",
+      "origem": "Moxico",
+      "lei_artigo": 309,
+      "total_municipios": 9
+    },
+    {
+      "id": "namibe",
+      "ordem_lei": 17,
+      "nome": "Namibe",
+      "sede": "Moçâmedes",
+      "origem": null,
+      "lei_artigo": 413,
+      "total_municipios": 9
+    },
+    {
+      "id": "uige",
+      "ordem_lei": 3,
+      "nome": "Uíge",
+      "sede": "Uíge",
+      "origem": null,
+      "lei_artigo": 39,
+      "total_municipios": 23
+    },
+    {
+      "id": "zaire",
+      "ordem_lei": 2,
+      "nome": "Zaire",
+      "sede": "Mbanza Kongo",
+      "origem": null,
+      "lei_artigo": 20,
+      "total_municipios": 11
+    }
+  ]
+}

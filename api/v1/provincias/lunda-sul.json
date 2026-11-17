@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "lunda-sul",
+    "ordem_lei": 11,
+    "nome": "Lunda-Sul",
+    "sede": "Saurimo",
+    "origem": null,
+    "lei_artigo": 274,
+    "total_municipios": 14,
+    "municipios": [
+      {
+        "id": "lunda-sul-alto-chicapa",
+        "nome": "Alto Chicapa",
+        "lei_artigo": 284
+      },
+      {
+        "id": "lunda-sul-cacolo",
+        "nome": "Cacolo",
+        "lei_artigo": 278
+      },
+      {
+        "id": "lunda-sul-cassai-sul",
+        "nome": "Cassai-Sul",
+        "lei_artigo": 281
+      },
+      {
+        "id": "lunda-sul-cassengo",
+        "nome": "Cassengo",
+        "lei_artigo": 290
+      },
+      {
+        "id": "lunda-sul-cazage",
+        "nome": "Cazage",
+        "lei_artigo": 288
+      },
+      {
+        "id": "lunda-sul-chiluage",
+        "nome": "Chiluage",
+        "lei_artigo": 280
+      },
+      {
+        "id": "lunda-sul-dala",
+        "nome": "Dala",
+        "lei_artigo": 279
+      },
+      {
+        "id": "lunda-sul-luma-cassai",
+        "nome": "Luma Cassai",
+        "lei_artigo": 287
+      },
+      {
+        "id": "lunda-sul-muangueji",
+        "nome": "Muangueji",
+        "lei_artigo": 289
+      },
+      {
+        "id": "lunda-sul-muconda",
+        "nome": "Muconda",
+        "lei_artigo": 277
+      },
+      {
+        "id": "lunda-sul-muriege",
+        "nome": "Muriege",
+        "lei_artigo": 286
+      },
+      {
+        "id": "lunda-sul-saurimo",
+        "nome": "Saurimo",
+        "lei_artigo": 275
+      },
+      {
+        "id": "lunda-sul-sombo",
+        "nome": "Sombo",
+        "lei_artigo": 285
+      },
+      {
+        "id": "lunda-sul-xassengue",
+        "nome": "Xassengue",
+        "lei_artigo": 282
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "versao": "0.1.0",
+    "verificado_em": "2026-11-16",
+    "fonte_primaria": "Lei n.º 14/24, de 5 de Setembro de 2024 (Lei da Divisão Político-Administrativa), Diário da República I Série, n.º 171",
+    "licenca_dados": "CC BY 4.0",
+    "totais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": null
+    },
+    "totais_oficiais": {
+      "provincias": 21,
+      "municipios": 326,
+      "comunas": 378
+    }
+  },
+  "dados": {
+    "id": "cabinda",
+    "ordem_lei": 1,
+    "nome": "Cabinda",
+    "sede": "Cabinda",
+    "origem": null,
+    "lei_artigo": 5,
+    "total_municipios": 10,
+    "municipios": [
+      {
+        "id": "cabinda-belize",
+        "nome": "Belize",
+        "lei_artigo": 10
+      },
+      {
+        "id": "cabinda-buco-zau",
+        "nome": "Buco Zau",
+        "lei_artigo": 9
+      },
+      {
+        "id": "cabinda-cabinda",
+        "nome": "Cabinda",
+        "lei_artigo": 6
+      },
+      {
+        "id": "cabinda-cacongo",
+        "nome": "Cacongo",
+        "lei_artigo": 7
+      },
+      {
+        "id": "cabinda-liambo",
+        "nome": "Liambo",
+        "lei_artigo": 18
+      },
+      {
+        "id": "cabinda-massabi",
+        "nome": "Massabi",
+        "lei_artigo": 13
+      },
+      {
+        "id": "cabinda-miconje",
+        "nome": "Miconje",
+        "lei_artigo": 12
+      },
+      {
+        "id": "cabinda-necuto",
+        "nome": "Necuto",
+        "lei_artigo": 14
+      },
+      {
+        "id": "cabinda-ngoio",
+        "nome": "Ngoio",
+        "lei_artigo": 19
+      },
+      {
+        "id": "cabinda-tando-zinze",
+        "nome": "Tando Zinze",
+        "lei_artigo": 16
+      }
+    ]
+  }
+}

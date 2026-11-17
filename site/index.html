@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="pt-AO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dados Abertos de Angola</title>
+<meta name="description" content="Províncias e municípios de Angola em dados abertos: API estática JSON, CSV e SQLite. Lei n.º 14/24.">
+<meta name="theme-color" content="#0d0d10">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d0d10'/%3E%3Cpath d='M0 0h64v26L0 40z' fill='%23cc092f'/%3E%3Cpath d='M32 14l5 11 12 1-9 8 3 12-11-6-11 6 3-12-9-8 12-1z' fill='%23ffcb00'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --red: #cc092f;
+    --black: #0d0d10;
+    --yellow: #ffcb00;
+    --bg: #f5f7fb;
+    --card: #ffffff;
+    --ink: #101114;
+    --muted: #5b6270;
+    --line: #e6e9f0;
+    --link: #4a2bd1;
+    --chip: #e9eefb;
+    --chip-ink: #0b2a7a;
+    --shadow: 0 10px 30px rgba(16, 17, 20, .08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #101116;
+      --card: #181a22;
+      --ink: #f3f4f8;
+      --muted: #a2a8b8;
+      --line: #272a36;
+      --link: #a99bff;
+      --chip: #1d2540;
+      --chip-ink: #b8c8ff;
+      --shadow: 0 10px 30px rgba(0, 0, 0, .4);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  svg { display: block; }
+
+  /* ---------- Cabeçalho ---------- */
+  .hero {
+    position: relative;
+    color: #fff;
+    /* metade preta / metade cor da página: evita uma linha fina na junção com a onda */
+    background: linear-gradient(var(--black) 50%, var(--bg) 50%);
+    isolation: isolate;
+    padding: clamp(18px, 4vw, 36px) 16px clamp(56px, 10vw, 96px);
+  }
+  .hero > .wave {
+    position: absolute; inset: 0 0 -2px 0; width: 100%; height: calc(100% + 2px); z-index: -1;
+  }
+  .hero-inner {
+    max-width: 880px; margin: 0 auto;
+    display: flex; align-items: center; gap: clamp(12px, 3vw, 24px);
+  }
+  .emblem { width: clamp(52px, 11vw, 84px); height: auto; flex: none; }
+  .hero h1 {
+    margin: 0; flex: 1;
+    padding-left: clamp(12px, 3vw, 24px);
+    border-left: 2px solid rgba(255, 255, 255, .22);
+    font-size: clamp(26px, 6.4vw, 48px);
+    line-height: 1.08; font-weight: 800; letter-spacing: -.01em;
+    text-wrap: balance;
+  }
+  .chart { width: clamp(44px, 9vw, 72px); height: auto; flex: none; }
+
+  /* ---------- Cartão ---------- */
+  main {
+    width: 100%; max-width: 680px;
+    margin: -36px auto 0; padding: 0 16px;
+    position: relative; z-index: 1;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    box-shadow: var(--shadow);
+    padding: clamp(18px, 4vw, 32px);
+  }
+  .title-row { display: flex; align-items: center; gap: clamp(14px, 3vw, 22px); }
+  .db-badge {
+    width: clamp(64px, 14vw, 92px); aspect-ratio: 1;
+    border-radius: 50%; background: var(--chip);
+    display: grid; place-items: center; flex: none;
+  }
+  .db-badge svg { width: 56%; height: auto; color: var(--ink); }
+  .title-row h2 {
+    margin: 0; padding-left: clamp(12px, 3vw, 20px);
+    border-left: 3px solid var(--yellow);
+    font-size: clamp(26px, 6vw, 40px); line-height: 1.08; font-weight: 800;
+    letter-spacing: -.015em; text-wrap: balance;
+  }
+  .lead {
+    display: flex; align-items: center; gap: 10px;
+    margin: 18px 0 18px; color: var(--muted); font-size: clamp(15px, 3.6vw, 18px);
+  }
+  .lead svg { width: 24px; height: 24px; flex: none; color: var(--muted); }
+
+  /* ---------- Lista de endpoints ---------- */
+  .endpoints {
+    list-style: none; margin: 0; padding: 0;
+    border: 1px solid var(--line); border-radius: 18px; overflow: hidden;
+  }
+  .endpoints li { display: flex; align-items: stretch; border-top: 1px solid var(--line); }
+  .endpoints li:first-child { border-top: 0; }
+  .ep {
+    flex: 1; min-width: 0;
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 8px 14px 14px;
+    color: inherit; text-decoration: none;
+    transition: background .15s;
+  }
+  .ep:hover { background: color-mix(in srgb, var(--chip) 55%, transparent); }
+  .ep:focus-visible, .copy:focus-visible {
+    outline: 3px solid var(--link); outline-offset: -3px; border-radius: 12px;
+  }
+  .fileicon { width: 40px; height: 48px; flex: none; }
+  .path {
+    flex: 1; min-width: 0;
+    color: var(--link); font-size: clamp(16px, 4.4vw, 22px); font-weight: 500;
+    text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px;
+    overflow-wrap: anywhere;
+  }
+  .path small {
+    display: inline-block; margin-left: 6px;
+    color: var(--muted); font-size: .68em; font-weight: 400; text-decoration: none;
+  }
+  .go {
+    width: 34px; height: 34px; border-radius: 50%; flex: none;
+    background: var(--chip); color: var(--chip-ink);
+    display: grid; place-items: center;
+  }
+  .go svg { width: 16px; height: 16px; }
+  .copy {
+    flex: none; width: 52px;
+    border: 0; border-left: 1px solid var(--line);
+    background: transparent; color: var(--muted); cursor: pointer;
+    display: grid; place-items: center;
+  }
+  .copy:hover { background: var(--chip); color: var(--chip-ink); }
+  .copy svg { width: 20px; height: 20px; }
+  .copy[data-ok="1"] { color: #1a8f4a; }
+
+  /* ---------- Caixa informativa ---------- */
+  .info {
+    margin-top: 18px; padding: 16px 18px; border-radius: 16px;
+    background: var(--chip); color: var(--chip-ink);
+    display: flex; align-items: center; gap: 14px;
+  }
+  .info-ic {
+    width: 44px; height: 44px; border-radius: 50%; flex: none;
+    background: #0b2a7a; color: #fff; display: grid; place-items: center;
+  }
+  .info-ic svg { width: 22px; height: 22px; }
+  .info strong { display: block; font-size: clamp(15px, 4vw, 19px); }
+  .info span { color: color-mix(in srgb, var(--chip-ink) 72%, var(--chip)); font-size: clamp(13px, 3.4vw, 16px); }
+
+  .meta {
+    margin: 16px 2px 0; display: flex; flex-wrap: wrap; gap: 6px 18px;
+    color: var(--muted); font-size: 14px;
+  }
+  .meta a { color: var(--link); }
+  #versao:empty { display: none; }
+
+  /* ---------- Rodapé ---------- */
+  footer {
+    position: relative; margin-top: auto; padding-top: 28px; color: #fff;
+    background: var(--black); isolation: isolate;
+  }
+  .skyline { display: block; width: 100%; height: auto; margin-top: clamp(20px, 6vw, 56px); background: var(--bg); }
+  .foot-wave { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; }
+  .foot-bar { background: var(--black); position: relative; padding: 6px 16px 22px; text-align: center; }
+  .foot-bar .tag {
+    display: flex; align-items: center; justify-content: center; gap: 14px;
+    font-style: italic; font-weight: 600; font-size: clamp(15px, 4vw, 20px);
+  }
+  .foot-bar .tag::before, .foot-bar .tag::after {
+    content: ""; flex: 0 1 70px; height: 1px; background: rgba(255, 255, 255, .35);
+  }
+  .foot-bar p { margin: 10px 0 0; font-size: 13px; color: rgba(255, 255, 255, .65); }
+  .foot-bar a { color: #fff; }
+
+  .toast {
+    position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px);
+    background: #101114; color: #fff; padding: 10px 16px; border-radius: 999px;
+    font-size: 14px; opacity: 0; pointer-events: none; transition: .25s; z-index: 10;
+  }
+  .toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+  .info strong { text-wrap: balance; }
+  .foot-bar .tag { text-wrap: balance; }
+
+  /* Telemóvel: o nome do ficheiro nunca parte a meio da palavra */
+  @media (max-width: 520px) {
+    .ep { gap: 12px; padding-right: 12px; }
+    .go { display: none; }
+    .path { font-size: clamp(15px, 4.4vw, 19px); overflow-wrap: normal; word-break: normal; }
+    .path small { display: block; margin: 2px 0 0; }
+    .foot-bar .tag::before, .foot-bar .tag::after { display: none; }
+  }
+  @media (max-width: 380px) {
+    .copy { width: 44px; }
+    .fileicon { width: 32px; height: 40px; }
+    .path { font-size: 15px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<!-- Símbolos reutilizáveis -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="file" viewBox="0 0 40 48">
+      <path d="M4 6a4 4 0 0 1 4-4h16l14 14v26a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z" fill="currentColor"/>
+      <path d="M24 2l14 14H28a4 4 0 0 1-4-4z" fill="#fff" opacity=".35"/>
+    </symbol>
+    <symbol id="chev" viewBox="0 0 16 16"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<header class="hero">
+  <!-- Faixas vermelha, preta e amarela -->
+  <svg class="wave" viewBox="0 0 1000 300" preserveAspectRatio="none" aria-hidden="true">
+    <rect width="1000" height="270" fill="#0d0d10"/>
+    <path d="M0 0H780C610 80 300 60 0 190Z" fill="#cc092f"/>
+    <path d="M0 262C240 215 600 295 1000 160V192C600 330 240 245 0 296Z" fill="#ffcb00"/>
+    <path d="M0 296C240 245 600 330 1000 192V300H0Z" fill="var(--bg)"/>
+  </svg>
+  <div class="hero-inner">
+    <!-- Emblema genérico: roda dentada e estrela (não é o brasão oficial) -->
+    <svg class="emblem" viewBox="0 0 100 100" aria-hidden="true">
+      <g fill="none" stroke="#ffcb00">
+        <circle cx="50" cy="50" r="38" stroke-width="10" stroke-dasharray="9.94 9.94"/>
+        <circle cx="50" cy="50" r="31" stroke-width="7"/>
+      </g>
+      <path d="M50 33L54.1 44.3L66.2 44.7L56.7 52.2L60 63.75L50 57L40 63.75L43.3 52.2L33.8 44.7L45.9 44.3Z" fill="#ffcb00"/>
+    </svg>
+    <h1>Dados Abertos<br>de Angola</h1>
+    <!-- Gráfico e moedas -->
+    <svg class="chart" viewBox="0 0 90 80" aria-hidden="true" fill="#fff">
+      <rect x="2" y="48" width="11" height="28" rx="2"/><rect x="18" y="34" width="11" height="42" rx="2"/><rect x="34" y="22" width="11" height="54" rx="2"/>
+      <ellipse cx="68" cy="46" rx="18" ry="6.5"/><path d="M50 52v8c0 3.6 8 6.5 18 6.5S86 63.600 86 60v-8c0 3.600-8 6.500-18 6.500S50 55.600 50 52Z"/><path d="M50 65v8c0 3.600 8 6.500 18 6.500S86 76.600 86 73v-8c0 3.600-8 6.500-18 6.500S50 68.600 50 65Z"/>
+      <path d="M8 26L38 6l13 8L74 2" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M62 2h14v14" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+</header>
+
+<main>
+  <section class="card" aria-labelledby="t">
+    <div class="title-row">
+      <div class="db-badge" aria-hidden="true">
+        <svg viewBox="0 0 64 64">
+          <g fill="currentColor">
+            <path d="M6 12c0-4 11-7 24-7s24 3 24 7-11 7-24 7S6 16 6 12Z"/>
+            <path d="M6 18c0 4 11 7 24 7s24-3 24-7v9c0 4-11 7-24 7S6 31 6 27Z"/>
+            <path d="M6 33c0 4 11 7 24 7 2 0 4 0 6-.2V50c-2 .2-4 .3-6 .3C17 50.300 6 47.300 6 43.300Z"/>
+          </g>
+          <g transform="translate(34 33)">
+            <circle cx="14" cy="15" r="14" fill="#ffcb00"/>
+            <path d="M8 14v-3a6 6 0 0 1 12 0v3" fill="none" stroke="#fff" stroke-width="2.800" stroke-linecap="round"/>
+            <rect x="6" y="14" width="16" height="11" rx="2.500" fill="#fff"/>
+          </g>
+        </svg>
+      </div>
+      <h2 id="t">Dados Abertos<br>de Angola</h2>
+    </div>
+
+    <p class="lead">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="8" cy="8" r="3.500"/><circle cx="17" cy="9" r="2.800"/><path d="M1.500 20c0-3.900 3-6.500 6.500-6.500s6.500 2.600 6.500 6.500Z"/><path d="M15.500 14c3.600-.6 7 1.600 7 5.500H17c0-2.200-.6-4-1.500-5.500Z"/></svg>
+      <span id="resumo">21 províncias e 326 municípios (Lei n.º&nbsp;14/24).</span>
+    </p>
+
+    <ul class="endpoints">
+      <li>
+        <a class="ep" href="api/v1/index.json">
+          <svg class="fileicon" style="color:#1a73e8" aria-hidden="true"><use href="#file"/></svg>
+          <span class="path">api/v1/index.json</span>
+          <span class="go"><svg aria-hidden="true"><use href="#chev"/></svg></span>
+        </a>
+        <button class="copy" type="button" data-copy="api/v1/index.json" aria-label="Copiar URL de index.json">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg>
+        </button>
+      </li>
+      <li>
+        <a class="ep" href="api/v1/provincias.json">
+          <svg class="fileicon" style="color:#2e9e4f" aria-hidden="true"><use href="#file"/></svg>
+          <span class="path">api/v1/provincias.json</span>
+          <span class="go"><svg aria-hidden="true"><use href="#chev"/></svg></span>
+        </a>
+        <button class="copy" type="button" data-copy="api/v1/provincias.json" aria-label="Copiar URL de provincias.json">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg>
+        </button>
+      </li>
+      <li>
+        <a class="ep" href="api/v1/municipios.json">
+          <svg class="fileicon" style="color:#f4a100" aria-hidden="true"><use href="#file"/></svg>
+          <span class="path">api/v1/municipios.json</span>
+          <span class="go"><svg aria-hidden="true"><use href="#chev"/></svg></span>
+        </a>
+        <button class="copy" type="button" data-copy="api/v1/municipios.json" aria-label="Copiar URL de municipios.json">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg>
+        </button>
+      </li>
+      <li>
+        <a class="ep" href="api/v1/angola.json">
+          <svg class="fileicon" style="color:#6c3bd8" aria-hidden="true"><use href="#file"/></svg>
+          <span class="path">api/v1/angola.json<small>(tudo num ficheiro)</small></span>
+          <span class="go"><svg aria-hidden="true"><use href="#chev"/></svg></span>
+        </a>
+        <button class="copy" type="button" data-copy="api/v1/angola.json" aria-label="Copiar URL de angola.json">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg>
+        </button>
+      </li>
+    </ul>
+
+    <div class="info">
+      <span class="info-ic" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="6" r="2.200"/><path d="M10 10h4v9h-4z"/></svg>
+      </span>
+      <div>
+        <strong>Acesso Aberto · Dados para Todos</strong>
+        <span>Informação pública, transparente e acessível.</span>
+      </div>
+    </div>
+
+    <p class="meta">
+      <span id="versao"></span>
+      <span>Dados: <a href="https://creativecommons.org/licenses/by/4.0/deed.pt">CC BY 4.0</a></span>
+      <span>Código: <a href="https://opensource.org/license/mit">MIT</a></span>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <svg class="foot-wave" viewBox="0 0 1000 260" preserveAspectRatio="none" aria-hidden="true">
+    <rect width="1000" height="260" fill="#0d0d10"/>
+    <path d="M0 0H1000V50C700 120 300 60 0 120Z" fill="var(--bg)"/>
+    <path d="M0 120C300 60 700 120 1000 50L1000 82C700 150 300 92 0 152Z" fill="#ffcb00"/>
+    <path d="M1000 82C800 130 700 150 560 150C760 150 900 120 1000 100Z" fill="#cc092f"/>
+    <path d="M0 152C300 92 700 150 1000 82V150C800 190 400 140 0 200Z" fill="#cc092f" opacity="0"/>
+  </svg>
+
+  <!-- Skyline genérico (edifícios e palmeiras) -->
+  <svg class="skyline" viewBox="0 0 1000 120" preserveAspectRatio="xMidYMax slice" aria-hidden="true" style="background:transparent">
+    <g fill="#34353c">
+      <rect x="20" y="78" width="44" height="42"/><rect x="70" y="60" width="26" height="60"/>
+      <rect x="104" y="84" width="40" height="36"/><rect x="150" y="70" width="30" height="50"/>
+      <rect x="196" y="90" width="48" height="30"/><rect x="250" y="64" width="26" height="56"/>
+      <rect x="282" y="48" width="34" height="72"/><rect x="322" y="82" width="40" height="38"/>
+      <rect x="388" y="52" width="46" height="68"/><rect x="440" y="30" width="40" height="90"/>
+      <rect x="486" y="46" width="30" height="74"/><rect x="522" y="22" width="44" height="98"/>
+      <rect x="572" y="52" width="38" height="68"/><rect x="616" y="70" width="30" height="50"/>
+      <rect x="760" y="76" width="44" height="44"/><rect x="810" y="58" width="30" height="62"/>
+      <rect x="846" y="84" width="40" height="36"/><rect x="892" y="68" width="34" height="52"/>
+      <rect x="932" y="86" width="48" height="34"/>
+      <path d="M670 120V58h92v8h-10l-6 54h-14l4-46h-40l4 46h-14l-6-54h-10v-8Z"/>
+      <rect x="640" y="48" width="4" height="72" opacity="0"/>
+    </g>
+    <g stroke="#34353c" stroke-width="3" stroke-linecap="round" fill="none">
+      <path d="M656 120V82M656 82c-10-10-20-8-24-2M656 82c10-10 20-8 24-2M656 82c-8-14-4-22 0-26M656 82c8-14 4-22 0-26"/>
+      <path d="M720 120V92M720 92c-9-9-18-7-22-2M720 92c9-9 18-7 22-2M720 92c-7-12-4-20 0-24M720 92c7-12 4-20 0-24"/>
+    </g>
+  </svg>
+
+  <div class="foot-bar">
+    <div class="tag">Angola Informa, Angola Avança</div>
+    <p>© 2026 JuLogic 404 · Projecto aberto da comunidade · não é uma publicação oficial do Estado angolano ·
+       <a href="https://github.com/">Contribuir no GitHub</a></p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite">URL copiada</div>
+
+<script>
+  // Copiar URL absoluta de cada endpoint
+  const toast = document.getElementById("toast");
+  let timer;
+  function aviso(msg) {
+    toast.textContent = msg;
+    toast.classList.add("show");
+    clearTimeout(timer);
+    timer = setTimeout(() => toast.classList.remove("show"), 1800);
+  }
+  document.querySelectorAll(".copy").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const url = new URL(btn.dataset.copy, location.href).href;
+      try {
+        await navigator.clipboard.writeText(url);
+        btn.dataset.ok = "1";
+        setTimeout(() => delete btn.dataset.ok, 1500);
+        aviso("URL copiada");
+      } catch {
+        window.prompt("Copia o URL:", url);
+      }
+    });
+  });
+
+  // Totais e versão vêm da própria API (com texto fixo como alternativa)
+  fetch("api/v1/index.json")
+    .then((r) => (r.ok ? r.json() : Promise.reject()))
+    .then(({ meta }) => {
+      const t = meta.totais;
+      document.getElementById("resumo").textContent =
+        `${t.provincias} províncias e ${t.municipios} municípios (Lei n.º 14/24).`;
+      document.getElementById("versao").textContent =
+        `Versão ${meta.versao} · verificado em ${meta.verificado_em}`;
+    })
+    .catch(() => {});
+</script>
+</body>
+</html>
