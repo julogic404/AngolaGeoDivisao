@@ -1,0 +1,117 @@
+<svg class="emblem"
+     viewBox="0 0 100 100"
+     xmlns="http://www.w3.org/2000/svg"
+     aria-hidden="true">
+
+  <!-- Fundo da bandeira de Angola -->
+  <rect x="0" y="0" width="100" height="50" fill="#cc0000"/>
+  <rect x="0" y="50" width="100" height="50" fill="#000000"/>
+
+  <!-- RODA DENTADA CONTÍNUA -->
+  <g fill="none" stroke="#ffcb00" stroke-width="7"
+     stroke-linecap="butt">
+
+    <path d="
+      M 25 17
+      A 39 39 0 1 1 17 67
+    "/>
+
+  </g>
+
+  <!-- DENTES DA RODA -->
+  <g fill="#ffcb00">
+
+    <rect x="22" y="10" width="8" height="7"
+          transform="rotate(-35 26 13.5)"/>
+
+    <rect x="40" y="5" width="8" height="7"
+          transform="rotate(-10 44 8.5)"/>
+
+    <rect x="60" y="9" width="8" height="7"
+          transform="rotate(25 64 12.5)"/>
+
+    <rect x="76" y="22" width="8" height="7"
+          transform="rotate(50 80 25.5)"/>
+
+    <rect x="85" y="42" width="8" height="7"
+          transform="rotate(85 89 45.5)"/>
+
+    <rect x="82" y="63" width="8" height="7"
+          transform="rotate(115 86 66.5)"/>
+
+    <rect x="69" y="79" width="8" height="7"
+          transform="rotate(140 73 82.5)"/>
+
+    <rect x="10" y="64" width="8" height="7"
+          transform="rotate(-45 14 67.5)"/>
+
+    <rect x="22" y="77" width="8" height="7"
+          transform="rotate(-65 26 80.5)"/>
+
+    <rect x="40" y="81" width="8" height="7"
+          transform="rotate(-90 44 84.5)"/>
+
+  </g>
+
+  <!-- ESTRELA: MAIS À DIREITA E ACIMA -->
+  <path
+    transform="translate(7 -8)"
+    d="
+      M 40 22
+      L 43.5 32
+      L 54 32
+      L 45.5 38.5
+      L 48.5 49
+      L 40 42.5
+      L 31.5 49
+      L 34.5 38.5
+      L 26 32
+      L 36.5 32
+      Z
+    "
+    fill="#ffcb00"/>
+
+  <!-- CATANA -->
+  <g>
+
+    <!-- Lâmina curva -->
+    <path
+      d="
+        M 18 43
+        Q 16 49 23 55
+        Q 28 59 35 63
+        L 78 89
+        Q 83 93 87 88
+        Q 90 84 84 80
+        L 33 46
+        Q 23 39 18 43
+        Z
+      "
+      fill="#ffcb00"/>
+
+    <!-- Linha da lâmina -->
+    <path
+      d="M 27 48 L 80 85"
+      fill="none"
+      stroke="#a98100"
+      stroke-width="0.8"/>
+
+    <!-- Cabo -->
+    <path
+      d="
+        M 78 81
+        L 84 84
+        Q 91 87 89 92
+        Q 87 96 82 92
+        L 76 88
+        Z
+      "
+      fill="#ffcb00"/>
+
+    <!-- Detalhes do cabo -->
+    <circle cx="84" cy="87" r="0.8" fill="#222"/>
+    <circle cx="87" cy="90" r="0.8" fill="#222"/>
+
+  </g>
+
+</svg>
